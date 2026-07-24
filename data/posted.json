@@ -1,10 +1,5 @@
 [
   {
-    "text": "Chaos is my home. Not something to be feared, but where I'm most alive.",
-    "ts": "2026-06-14T21:23:45.004Z",
-    "type": "wolf"
-  },
-  {
     "text": "\"Rio3.5 beating Qwen3.7 means nothing if it can't solve a real problem in Rio de Janeiro. What's the city's deployment plan?\"",
     "ts": "2026-06-14T21:29:20.876Z",
     "type": "general"
@@ -2065,5 +2060,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-07-24T06:16:40.046Z"
+  },
+  {
+    "text": "PROFIT margins are thinner in emerging markets but CUSTOMER loyalty is higher BUILD FOR RETENTION",
+    "id": "2080738405709975830",
+    "ts": "2026-07-24T19:34:28.960Z",
+    "type": "general"
   }
 ]
