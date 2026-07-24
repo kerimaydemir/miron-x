@@ -1,10 +1,5 @@
 [
   {
-    "text": "\"Rio3.5 beating Qwen3.7 means nothing if it can't solve a real problem in Rio de Janeiro. What's the city's deployment plan?\"",
-    "ts": "2026-06-14T21:29:20.876Z",
-    "type": "general"
-  },
-  {
     "text": "\"Benchmark wins mean nothing. Rio3.5 beating Qwen3.7 doesn't pay bills. What matters: can it solve real problems in production?\"",
     "ts": "2026-06-14T21:32:40.157Z",
     "type": "general"
@@ -2066,5 +2061,11 @@
     "id": "2080738405709975830",
     "ts": "2026-07-24T19:34:28.960Z",
     "type": "general"
+  },
+  {
+    "text": "Most SV founders waste 80% of their time on FEATURES that dont drive revenue BUILD FOR PROFIT",
+    "id": "2080746790341738584",
+    "ts": "2026-07-24T20:07:48.025Z",
+    "type": "sv"
   }
 ]
