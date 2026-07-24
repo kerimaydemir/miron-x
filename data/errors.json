@@ -1,19 +1,5 @@
 [
   {
-    "ts": "2026-06-23T18:59:19.151Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "naval"
-  },
-  {
-    "ts": "2026-06-23T18:59:27.281Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "swyx"
-  },
-  {
     "ts": "2026-06-23T18:59:35.232Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
@@ -2160,6 +2146,20 @@
     "ts": "2026-07-24T15:00:48.942Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "reply",
+    "account": "dvassallo"
+  },
+  {
+    "ts": "2026-07-24T18:08:07.621Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
+    "phase": "reply",
+    "account": "gregisenberg"
+  },
+  {
+    "ts": "2026-07-24T18:08:15.288Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
     "phase": "reply",
     "account": "dvassallo"
   }
