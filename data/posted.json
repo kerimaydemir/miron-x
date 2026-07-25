@@ -1,10 +1,5 @@
 [
   {
-    "text": "\"KPMG's report debacle shows AI's hallucination problem is real. Builders who don't address this will lose customers fast.\"",
-    "ts": "2026-06-14T21:34:00.376Z",
-    "type": "general"
-  },
-  {
     "text": "\"KPMG's report debacle shows AI's 'hallucinations' are a symptom of a larger issue: untested models in production. When you're shipping, accuracy matters more than benchmarks.\"",
     "ts": "2026-06-14T21:35:17.552Z",
     "type": "general"
@@ -2077,6 +2072,12 @@
     "text": "AI agents are not decision makers they are INPUT VALIDATORS.",
     "id": "2081048062315642918",
     "ts": "2026-07-25T16:04:56.853Z",
+    "type": "general"
+  },
+  {
+    "text": "Your city's UNIQUE regulatory environment is a COMPETITIVE ADVANTAGE exploit it.",
+    "id": "2081095296025567727",
+    "ts": "2026-07-25T19:12:38.257Z",
     "type": "general"
   }
 ]
