@@ -1,10 +1,5 @@
 [
   {
-    "text": "\"90% of 'homegrown' LLMs are just rebranded existing models. What matters is who integrates them into real workflows, not who slaps a new logo on. 🚫\"",
-    "ts": "2026-06-14T21:40:54.977Z",
-    "type": "general"
-  },
-  {
     "text": "\"Benchmark wins don't pay bills. Rio3.5 beating Qwen3.7 is irrelevant if it doesn't solve real problems for the city. What's the ROI on this AI investment?\"",
     "ts": "2026-06-14T22:04:32.198Z",
     "type": "general"
@@ -2113,5 +2108,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-07-26T06:27:24.116Z"
+  },
+  {
+    "text": "London founders waste time chasing US VCs when local angels offer better terms and less dilution",
+    "id": "2081347750835388455",
+    "ts": "2026-07-26T11:55:48.168Z",
+    "type": "london"
   }
 ]
