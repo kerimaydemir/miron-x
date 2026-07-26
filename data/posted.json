@@ -1,10 +1,5 @@
 [
   {
-    "text": "\"KPMG's pulled report on AI usage due to hallucinations is a reminder: most AI models can't tell fact from fiction. Doesn't matter how many benchmarks they win.\"",
-    "ts": "2026-06-14T21:38:09.438Z",
-    "type": "general"
-  },
-  {
     "text": "\"KPMG's report debacle shows AI's hallucinations are a real problem. Builders need to focus on robust testing, not just model accuracy.\"",
     "ts": "2026-06-14T21:39:35.939Z",
     "type": "general"
@@ -2081,5 +2076,11 @@
     "id": "2081216959937675281",
     "ts": "2026-07-26T03:16:05.201Z",
     "type": "general"
+  },
+  {
+    "text": "Most SV founders die from overbuilding not underbuilding CUT FEATURES TO SURVIVE",
+    "id": "2081235266979672402",
+    "ts": "2026-07-26T04:28:49.936Z",
+    "type": "sv"
   }
 ]
