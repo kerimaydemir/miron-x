@@ -1,20 +1,5 @@
 [
   {
-    "text": "\"Benchmark wins don't pay bills. Rio3.5 beating Qwen3.7 is irrelevant if it doesn't solve real problems for the city. What's the ROI on this AI investment?\"",
-    "ts": "2026-06-14T22:04:32.198Z",
-    "type": "general"
-  },
-  {
-    "text": "\"Ai is code – and can't be prompted into being smarter. This is what actually matters when shipping: writing better code, not chatting with LLMs 💻\"",
-    "ts": "2026-06-15T04:45:38.617Z",
-    "type": "general"
-  },
-  {
-    "text": "\"Not everyone using AI for everything is a good thing. Most are just checking a box. Real question: which workflows actually improve with AI?\"",
-    "ts": "2026-06-15T07:28:27.371Z",
-    "type": "general"
-  },
-  {
     "text": "Autonomous drones will replace 30% of human inspectors in high-risk industries within 2 years 🚁 \nwhat's the real cost of delaying this shift",
     "id": "2066504712082669612",
     "ts": "2026-06-15T12:54:51.981Z",
@@ -2114,5 +2099,23 @@
     "id": "2081347750835388455",
     "ts": "2026-07-26T11:55:48.168Z",
     "type": "london"
+  },
+  {
+    "text": "1/ DRONE REGULATIONS are KILLING INNOVATION in the EU",
+    "id": "2081388898018611644",
+    "ts": "2026-07-26T14:39:18.417Z",
+    "type": "thread"
+  },
+  {
+    "text": "2/ 80% of drone startups in the EU are spending MORE THAN 50% of their budget on COMPLIANCE",
+    "id": "2081388974497473023",
+    "ts": "2026-07-26T14:39:36.658Z",
+    "type": "thread"
+  },
+  {
+    "text": "3/ TURKEY has the MOST RELAXED drone regulations in the region and is seeing a SURGE in drone tech investment",
+    "id": "2081389051035173159",
+    "ts": "2026-07-26T14:39:54.914Z",
+    "type": "thread"
   }
 ]
