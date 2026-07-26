@@ -1,16 +1,5 @@
 [
   {
-    "text": "6 months ago autonomous systems were 80% hype and 20% tech now they're 40% hype and 60% deployable code what changed is builders like myself actually shipping products 🚀",
-    "id": "2066507049144316351",
-    "ts": "2026-06-15T13:04:09.175Z",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-26T06:27:26.513Z",
-    "type": "general"
-  },
-  {
     "text": "70% of marketing spend is wasted on distribution not product because founders conflate going viral with actual growth 📉",
     "id": "2066507350677070026",
     "ts": "2026-06-15T13:05:21.069Z",
@@ -2107,5 +2096,11 @@
     "id": "2081470103032320371",
     "ts": "2026-07-26T20:01:59.201Z",
     "type": "sv"
+  },
+  {
+    "text": "Focus on CUSTOMER RETENTION not acquisition costs it's 5x cheaper to keep a customer than find a new one",
+    "id": "2081495927672463393",
+    "ts": "2026-07-26T21:44:36.267Z",
+    "type": "general"
   }
 ]
