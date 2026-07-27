@@ -1,44 +1,5 @@
 [
   {
-    "ts": "2026-06-24T23:14:03.223Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "amasad"
-  },
-  {
-    "ts": "2026-06-25T15:43:10.490Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 1,
-    "tweet": "1/ Most TECH DEBT comes from over-engineering for FUTURE PROOFING"
-  },
-  {
-    "ts": "2026-06-25T15:43:10.624Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 2,
-    "tweet": "2/ 80% of features are used by LESS THAN 10% of users"
-  },
-  {
-    "ts": "2026-06-25T15:43:10.786Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 3,
-    "tweet": "3/ REAL WORLD DATA shows that 50% of users abandon products within 3 months"
-  },
-  {
-    "ts": "2026-06-25T15:43:29.198Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 5,
-    "tweet": "5/ What's the ONE THING you're building that WILL STILL MATTER in 5 years"
-  },
-  {
     "ts": "2026-06-25T18:59:17.543Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
@@ -2164,5 +2125,45 @@
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
     "phase": "reply",
     "account": "amasad"
+  },
+  {
+    "ts": "2026-07-27T15:45:30.982Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 1,
+    "tweet": "1/ Most tech founders fail because they cant tell the difference between MARKET "
+  },
+  {
+    "ts": "2026-07-27T15:45:31.081Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 2,
+    "tweet": "2/ 90% of my drone tech sales come from cold emails sent to purchasing managers "
+  },
+  {
+    "ts": "2026-07-27T15:45:31.188Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 3,
+    "tweet": "3/ We built our own AI tools because OFF THE SHELF solutions were too expensive "
+  },
+  {
+    "ts": "2026-07-27T15:45:31.285Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 4,
+    "tweet": "4/ Our digital agency has a 6 month waitlist because we only take on clients who"
+  },
+  {
+    "ts": "2026-07-27T15:45:31.413Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 5,
+    "tweet": "5/ Can your business survive a 6 month drought in new customers what's your plan"
   }
 ]
