@@ -1,16 +1,5 @@
 [
   {
-    "text": "Only 12% of LLMs in production are used for actual decision-making the rest are just generating marketing copy 📊",
-    "id": "2066507686250733866",
-    "ts": "2026-06-15T13:06:41.081Z",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-26T06:27:28.746Z",
-    "type": "general"
-  },
-  {
     "text": "40% of AI products are built by teams with no domain expertise, resulting in 90% of AI projects being redeployed after initial launch, wasting $100k to $1m per project 🚀",
     "id": "2066507891704475897",
     "ts": "2026-06-15T13:07:30.077Z",
@@ -2096,6 +2085,12 @@
     "text": "DRONE TECH is undervalued in INDUSTRY 4.0 applications BUILD AUTONOMY FOR LOGISTICS",
     "id": "2081581749549609274",
     "ts": "2026-07-27T03:25:37.821Z",
+    "type": "general"
+  },
+  {
+    "text": "Autonomous systems need REALTIME feedback loops to survive outside labs",
+    "id": "2081619638937334220",
+    "ts": "2026-07-27T05:56:11.336Z",
     "type": "general"
   }
 ]
