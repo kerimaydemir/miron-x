@@ -1,12 +1,5 @@
 [
   {
-    "ts": "2026-06-25T18:59:17.543Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "swyx"
-  },
-  {
     "ts": "2026-06-25T18:59:25.248Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
@@ -2165,5 +2158,12 @@
     "phase": "send_tweet",
     "tweetIndex": 5,
     "tweet": "5/ Can your business survive a 6 month drought in new customers what's your plan"
+  },
+  {
+    "ts": "2026-07-27T15:46:44.736Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
+    "phase": "reply",
+    "account": "paulg"
   }
 ]
