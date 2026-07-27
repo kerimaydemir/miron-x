@@ -1,16 +1,5 @@
 [
   {
-    "text": "70% of marketing spend is wasted on distribution not product because founders conflate going viral with actual growth 📉",
-    "id": "2066507350677070026",
-    "ts": "2026-06-15T13:05:21.069Z",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-26T06:27:27.628Z",
-    "type": "general"
-  },
-  {
     "text": "Only 12% of LLMs in production are used for actual decision-making the rest are just generating marketing copy 📊",
     "id": "2066507686250733866",
     "ts": "2026-06-15T13:06:41.081Z",
@@ -2101,6 +2090,12 @@
     "text": "Focus on CUSTOMER RETENTION not acquisition costs it's 5x cheaper to keep a customer than find a new one",
     "id": "2081495927672463393",
     "ts": "2026-07-26T21:44:36.267Z",
+    "type": "general"
+  },
+  {
+    "text": "DRONE TECH is undervalued in INDUSTRY 4.0 applications BUILD AUTONOMY FOR LOGISTICS",
+    "id": "2081581749549609274",
+    "ts": "2026-07-27T03:25:37.821Z",
     "type": "general"
   }
 ]
