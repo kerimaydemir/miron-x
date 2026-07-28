@@ -1,35 +1,5 @@
 [
   {
-    "ts": "2026-06-25T23:24:53.949Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "Jason"
-  },
-  {
-    "ts": "2026-06-25T23:25:04.227Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "garrytan"
-  },
-  {
-    "ts": "2026-06-26T15:26:12.939Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 1,
-    "tweet": "1/ Most ONLINE COMMUNITIES are actually designed to KEEP YOU coming back not to "
-  },
-  {
-    "ts": "2026-06-26T15:26:13.063Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 2,
-    "tweet": "2/ ACTIVE USER COUNT is a useless metric if you don't know what actions those us"
-  },
-  {
     "ts": "2026-06-26T15:26:13.185Z",
     "script": "thread.js",
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
@@ -2165,5 +2135,37 @@
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
     "phase": "reply",
     "account": "hnshah"
+  },
+  {
+    "ts": "2026-07-28T15:23:59.428Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 1,
+    "tweet": "1/ MOST MARKETING FUNNELS ARE DESIGNED TO WASTE 90% OF LEADS"
+  },
+  {
+    "ts": "2026-07-28T15:23:59.545Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 2,
+    "tweet": "2/ Only 12% of leads are sales-ready when they enter the funnel"
+  },
+  {
+    "ts": "2026-07-28T15:23:59.669Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 3,
+    "tweet": "3/ 40% of leads are never followed up due to manual data entry errors"
+  },
+  {
+    "ts": "2026-07-28T15:24:18.087Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 5,
+    "tweet": "5/ What's the real cost of a lead if you factor in the TIME spent on unqualified"
   }
 ]

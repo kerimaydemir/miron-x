@@ -1,16 +1,5 @@
 [
   {
-    "text": "London founders focus on shipping product not pitching VCs. \nREAL growth happens when you understand your first 100 customers.",
-    "id": "2066911085815296324",
-    "ts": "2026-06-16T15:49:39.023Z",
-    "type": "london",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-27T06:53:22.732Z"
-  },
-  {
     "text": "Men who sharpen under pressure vs men who fold under it. One forges steel the other breaks.",
     "id": "2066977544771883241",
     "ts": "2026-06-16T20:13:44.056Z",
@@ -2120,5 +2109,11 @@
     "id": "2082085857113043377",
     "ts": "2026-07-28T12:48:46.409Z",
     "type": "london"
+  },
+  {
+    "text": "4/ Companies spend $1500 to acquire a lead that has a 10% chance of conversion",
+    "id": "2082124920662770010",
+    "ts": "2026-07-28T15:23:59.919Z",
+    "type": "thread"
   }
 ]
