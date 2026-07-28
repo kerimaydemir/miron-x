@@ -1,16 +1,5 @@
 [
   {
-    "text": "Most SV founders waste 6 months on product-market fit because they don't understand their first 10 paying customers.",
-    "id": "2067129838423687488",
-    "ts": "2026-06-17T06:18:53.693Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-27T06:53:24.870Z"
-  },
-  {
     "text": "London founders should stop chasing US VCs and focus on BUILDING REAL PRODUCTS that solve local problems first then scale globally",
     "id": "2067241409682243620",
     "ts": "2026-06-17T13:42:14.373Z",
@@ -2110,5 +2099,11 @@
     "id": "2082144166935416923",
     "ts": "2026-07-28T16:40:28.566Z",
     "type": "general"
+  },
+  {
+    "text": "Building a startup without VC money means every mistake costs YOU not some faceless investor",
+    "id": "2082159063794913404",
+    "ts": "2026-07-28T17:39:40.233Z",
+    "type": "sv"
   }
 ]
