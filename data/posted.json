@@ -1,16 +1,5 @@
 [
   {
-    "text": "Men who sharpen under pressure vs men who fold under it. One forges steel the other breaks.",
-    "id": "2066977544771883241",
-    "ts": "2026-06-16T20:13:44.056Z",
-    "type": "wolf",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-27T06:53:23.799Z"
-  },
-  {
     "text": "Most SV founders waste 6 months on product-market fit because they don't understand their first 10 paying customers.",
     "id": "2067129838423687488",
     "ts": "2026-06-17T06:18:53.693Z",
@@ -2115,5 +2104,11 @@
     "id": "2082124920662770010",
     "ts": "2026-07-28T15:23:59.919Z",
     "type": "thread"
+  },
+  {
+    "text": "You're not a founder if you can't read a balance sheet BUILD FOR PROFIT not users",
+    "id": "2082144166935416923",
+    "ts": "2026-07-28T16:40:28.566Z",
+    "type": "general"
   }
 ]
