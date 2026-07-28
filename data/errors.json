@@ -1,33 +1,5 @@
 [
   {
-    "ts": "2026-06-26T18:19:49.589Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "alexisohanian"
-  },
-  {
-    "ts": "2026-06-26T18:19:57.120Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "mwseibel"
-  },
-  {
-    "ts": "2026-06-26T18:20:04.866Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "hnshah"
-  },
-  {
-    "ts": "2026-06-26T21:19:25.723Z",
-    "script": "repost.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "quote_tweet",
-    "account": "elonmusk"
-  },
-  {
     "ts": "2026-06-27T17:52:45.508Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
@@ -2164,5 +2136,33 @@
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
     "phase": "reply",
     "account": "levelsio"
+  },
+  {
+    "ts": "2026-07-28T21:08:08.472Z",
+    "script": "repost.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "quote_tweet",
+    "account": "dhh"
+  },
+  {
+    "ts": "2026-07-28T21:08:11.298Z",
+    "script": "repost.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "quote_tweet",
+    "account": "garrytan"
+  },
+  {
+    "ts": "2026-07-28T21:08:14.461Z",
+    "script": "repost.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "quote_tweet",
+    "account": "levelsio"
+  },
+  {
+    "ts": "2026-07-28T21:08:17.058Z",
+    "script": "repost.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "quote_tweet",
+    "account": "shl"
   }
 ]
