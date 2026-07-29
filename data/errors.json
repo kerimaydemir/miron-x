@@ -1,26 +1,5 @@
 [
   {
-    "ts": "2026-06-28T17:56:30.591Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: The original Tweet author restricted who can reply to this Tweet. (433)",
-    "phase": "reply",
-    "account": "levelsio"
-  },
-  {
-    "ts": "2026-06-29T16:40:08.308Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "Jason"
-  },
-  {
-    "ts": "2026-06-29T16:40:31.218Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "elonmusk"
-  },
-  {
     "ts": "2026-06-29T16:40:38.782Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
@@ -2169,5 +2148,26 @@
     "error": "UserTweets HTTP 503: upstream connect error or disconnect/reset before headers. reset reason: connection timeout",
     "phase": "reply",
     "account": "sahilbloom"
+  },
+  {
+    "ts": "2026-07-29T20:55:58.534Z",
+    "script": "repost.js",
+    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
+    "phase": "quote_tweet",
+    "account": "levelsio"
+  },
+  {
+    "ts": "2026-07-29T20:56:01.399Z",
+    "script": "repost.js",
+    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
+    "phase": "quote_tweet",
+    "account": "dhh"
+  },
+  {
+    "ts": "2026-07-29T20:56:06.766Z",
+    "script": "repost.js",
+    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
+    "phase": "quote_tweet",
+    "account": "garrytan"
   }
 ]
