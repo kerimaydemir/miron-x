@@ -1,16 +1,5 @@
 [
   {
-    "text": "Men who sharpen under pressure vs men who fold under it define the difference between strength and weakness.",
-    "id": "2067328268098015571",
-    "ts": "2026-06-17T19:27:23.045Z",
-    "type": "wolf",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-29T06:22:20.516Z"
-  },
-  {
     "text": "Building in SF means navigating CITY REGULATIONS that kill 80% of bootstrapped startups before they even launch.",
     "id": "2067351485990699501",
     "ts": "2026-06-17T20:59:38.585Z",
@@ -2120,5 +2109,11 @@
     "id": "2082436259121652208",
     "ts": "2026-07-29T12:01:08.757Z",
     "type": "london"
+  },
+  {
+    "text": "You're not building a company if your runway is tied to someone else's budget.",
+    "id": "2082516618584985831",
+    "ts": "2026-07-29T17:20:27.933Z",
+    "type": "sv"
   }
 ]
