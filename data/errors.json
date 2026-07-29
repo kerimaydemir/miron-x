@@ -1,40 +1,5 @@
 [
   {
-    "ts": "2026-06-27T17:52:45.508Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "shl"
-  },
-  {
-    "ts": "2026-06-27T17:52:53.161Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "jasonlk"
-  },
-  {
-    "ts": "2026-06-27T17:53:00.904Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "elonmusk"
-  },
-  {
-    "ts": "2026-06-27T17:53:08.760Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "pmarca"
-  },
-  {
-    "ts": "2026-06-27T17:53:16.647Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "garrytan"
-  },
-  {
     "ts": "2026-06-27T21:04:13.838Z",
     "script": "repost.js",
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
@@ -2164,5 +2129,45 @@
     "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
     "phase": "quote_tweet",
     "account": "shl"
+  },
+  {
+    "ts": "2026-07-29T15:10:32.544Z",
+    "script": "thread.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "send_tweet",
+    "tweetIndex": 1,
+    "tweet": "1/ MOST NEW TECH VENTURES fail because they dont understand PHYSICAL INFRASTRUCT"
+  },
+  {
+    "ts": "2026-07-29T15:10:32.686Z",
+    "script": "thread.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "send_tweet",
+    "tweetIndex": 2,
+    "tweet": "2/ Fiber optic cables arent enough BUILDING CELL TOWERS is a major undertaking"
+  },
+  {
+    "ts": "2026-07-29T15:10:32.829Z",
+    "script": "thread.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "send_tweet",
+    "tweetIndex": 3,
+    "tweet": "3/ LOCAL GOVERNMENTS often dictate tower placement and HEIGHT LIMITS"
+  },
+  {
+    "ts": "2026-07-29T15:10:32.968Z",
+    "script": "thread.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "send_tweet",
+    "tweetIndex": 4,
+    "tweet": "4/ Microwave BACKHAUL systems can be a cheaper ALTERNATIVE to fiber"
+  },
+  {
+    "ts": "2026-07-29T15:10:33.105Z",
+    "script": "thread.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "send_tweet",
+    "tweetIndex": 5,
+    "tweet": "5/ How many founders factor in PHYSICAL INFRASTRUCTURE costs when scaling"
   }
 ]
