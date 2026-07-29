@@ -1,16 +1,5 @@
 [
   {
-    "text": "London founders waste time on unnecessary regulatory hurdles because they don't know how to work WITH the system not against it",
-    "id": "2067252040502501568",
-    "ts": "2026-06-17T14:24:28.947Z",
-    "type": "london",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-27T06:53:27.018Z"
-  },
-  {
     "text": "Distribution is everything SV founders underestimate until month 8 then they're dead.",
     "id": "2067313778719429054",
     "ts": "2026-06-17T18:29:48.495Z",
@@ -2099,6 +2088,12 @@
     "text": "Autonomous systems need owners not operators BUILD FOR AUTONOMY",
     "id": "2082188728617832870",
     "ts": "2026-07-28T19:37:32.898Z",
+    "type": "general"
+  },
+  {
+    "text": "FOUNDERS who dont track CUSTOMER PAYBACK PERIOD are flying blind",
+    "id": "2082297667997044971",
+    "ts": "2026-07-29T02:50:26.093Z",
     "type": "general"
   }
 ]
