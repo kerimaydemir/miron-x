@@ -1,12 +1,5 @@
 [
   {
-    "ts": "2026-06-27T21:04:13.838Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "quote_tweet",
-    "account": "paulg"
-  },
-  {
     "ts": "2026-06-28T17:56:30.591Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: The original Tweet author restricted who can reply to this Tweet. (433)",
@@ -2169,5 +2162,12 @@
     "phase": "send_tweet",
     "tweetIndex": 5,
     "tweet": "5/ How many founders factor in PHYSICAL INFRASTRUCTURE costs when scaling"
+  },
+  {
+    "ts": "2026-07-29T18:00:34.582Z",
+    "script": "engage.js",
+    "error": "UserTweets HTTP 503: upstream connect error or disconnect/reset before headers. reset reason: connection timeout",
+    "phase": "reply",
+    "account": "sahilbloom"
   }
 ]
