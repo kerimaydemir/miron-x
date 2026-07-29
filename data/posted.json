@@ -1,16 +1,5 @@
 [
   {
-    "text": "Building in SF means navigating CITY REGULATIONS that kill 80% of bootstrapped startups before they even launch.",
-    "id": "2067351485990699501",
-    "ts": "2026-06-17T20:59:38.585Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-29T06:22:21.591Z"
-  },
-  {
     "text": "SV founders overpay for talent because they think BRAND NAME devs are better than HUNGRY unknowns who actually BUILD something.",
     "id": "2067487167450886564",
     "ts": "2026-06-18T05:58:47.567Z",
@@ -2115,5 +2104,11 @@
     "id": "2082516618584985831",
     "ts": "2026-07-29T17:20:27.933Z",
     "type": "sv"
+  },
+  {
+    "text": "Pain doesn't stop me. Silence does the work.",
+    "id": "2082529104381792688",
+    "ts": "2026-07-29T18:10:04.789Z",
+    "type": "wolf"
   }
 ]
