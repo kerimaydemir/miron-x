@@ -1,37 +1,5 @@
 [
   {
-    "ts": "2026-06-30T15:33:34.819Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 1,
-    "tweet": "1/ DRONE REGULATIONS are killing the industry"
-  },
-  {
-    "ts": "2026-06-30T15:33:35.041Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 2,
-    "tweet": "2/ 80% of drone startups fail due to certification costs"
-  },
-  {
-    "ts": "2026-06-30T15:33:35.214Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 3,
-    "tweet": "3/ Countries with clear drone laws see 300% more investment"
-  },
-  {
-    "ts": "2026-06-30T15:33:35.394Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 4,
-    "tweet": "4/ Most drone companies spend 6 months just getting airborne"
-  },
-  {
     "ts": "2026-06-30T15:33:35.568Z",
     "script": "thread.js",
     "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
@@ -2169,5 +2137,37 @@
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
     "phase": "reply",
     "account": "dvassallo"
+  },
+  {
+    "ts": "2026-07-30T15:14:57.224Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 2,
+    "tweet": "2/ Average customer support ticket is answered in 12 HOURS"
+  },
+  {
+    "ts": "2026-07-30T15:14:57.341Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 3,
+    "tweet": "3/ Top-performing AI models are trained on DATA FROM 2015"
+  },
+  {
+    "ts": "2026-07-30T15:14:57.457Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 4,
+    "tweet": "4/ Real sales conversations happen on PHONE CALLS not chatbots"
+  },
+  {
+    "ts": "2026-07-30T15:14:57.575Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 5,
+    "tweet": "5/ What's the actual CONVERSION RATE of your 'omnichannel' strategy"
   }
 ]
