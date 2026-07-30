@@ -1,16 +1,5 @@
 [
   {
-    "text": "SV founders overpay for talent because they think BRAND NAME devs are better than HUNGRY unknowns who actually BUILD something.",
-    "id": "2067487167450886564",
-    "ts": "2026-06-18T05:58:47.567Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-29T06:22:22.657Z"
-  },
-  {
     "text": "Founders who BUILD WITH AI need to STOP relying on DEFAULT SETTINGS and actually learn how to configure their AI CODING TOOLS for real workflows",
     "id": "2067502436181271030",
     "ts": "2026-06-18T06:59:27.940Z",
@@ -2110,5 +2099,11 @@
     "id": "2082529104381792688",
     "ts": "2026-07-29T18:10:04.789Z",
     "type": "wolf"
+  },
+  {
+    "text": "Most founders mistake PRODUCT QUALITY for BUSINESS QUALITY only one drives revenue",
+    "id": "2082656191545544962",
+    "ts": "2026-07-30T02:35:04.733Z",
+    "type": "general"
   }
 ]
