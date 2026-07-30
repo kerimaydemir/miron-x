@@ -1,27 +1,5 @@
 [
   {
-    "ts": "2026-06-30T15:33:35.568Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 5,
-    "tweet": "5/ What's the real cost of overregulation for drone tech"
-  },
-  {
-    "ts": "2026-06-30T18:26:14.662Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "nikitabier"
-  },
-  {
-    "ts": "2026-07-01T15:47:21.534Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "tibo_maker"
-  },
-  {
     "ts": "2026-07-01T18:52:40.610Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
@@ -2169,5 +2147,26 @@
     "phase": "send_tweet",
     "tweetIndex": 5,
     "tweet": "5/ What's the actual CONVERSION RATE of your 'omnichannel' strategy"
+  },
+  {
+    "ts": "2026-07-30T15:15:24.824Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "reply",
+    "account": "naval"
+  },
+  {
+    "ts": "2026-07-30T15:15:45.568Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "reply",
+    "account": "hnshah"
+  },
+  {
+    "ts": "2026-07-30T15:15:57.095Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "reply",
+    "account": "levelsio"
   }
 ]
