@@ -1,16 +1,5 @@
 [
   {
-    "text": "London founders need to stop waiting for perfect product-market fit and start shipping to real customers NOW or they'll run out of cash",
-    "id": "2067607828202713431",
-    "ts": "2026-06-18T13:58:15.458Z",
-    "type": "london",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-29T06:22:24.801Z"
-  },
-  {
     "text": "2/ 3 out of 5 founders who worked as musicians before starting a company have a CLEARER understanding of customer needs",
     "id": "2067647906514088361",
     "ts": "2026-06-18T16:37:30.738Z",
@@ -2120,5 +2109,11 @@
     "id": "2082847343984943514",
     "ts": "2026-07-30T15:14:39.037Z",
     "type": "thread"
+  },
+  {
+    "text": "FOCUS ON INFRASTRUCTURE not applications BUILD FOR THE PLUMBING",
+    "id": "2082948038818234688",
+    "ts": "2026-07-30T21:54:46.556Z",
+    "type": "general"
   }
 ]
