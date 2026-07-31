@@ -1,16 +1,5 @@
 [
   {
-    "text": "London founders fixate on fundraising too much BUILD something that survives winter without VC money then talk to investors",
-    "id": "2067970357386936490",
-    "ts": "2026-06-19T13:58:49.036Z",
-    "type": "london",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-31T06:34:57.527Z"
-  },
-  {
     "text": "3/ ADVANCES in SUPER CAPACITORS could change this in the next 24 months",
     "id": "2068003362961084592",
     "ts": "2026-06-19T16:09:58.160Z",
@@ -2123,5 +2112,11 @@
     "id": "2083247510965928115",
     "ts": "2026-07-31T17:44:46.298Z",
     "type": "sv"
+  },
+  {
+    "text": "Only owners of autonomous systems understand that reliability is more important than speed",
+    "id": "2083276225166876993",
+    "ts": "2026-07-31T19:38:52.268Z",
+    "type": "general"
   }
 ]
