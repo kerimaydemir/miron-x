@@ -1,12 +1,5 @@
 [
   {
-    "text": "2/ 3 out of 5 founders who worked as musicians before starting a company have a CLEARER understanding of customer needs",
-    "id": "2067647906514088361",
-    "ts": "2026-06-18T16:37:30.738Z",
-    "type": "thread",
-    "lastChecked": "2026-07-29T06:22:25.880Z"
-  },
-  {
     "text": "5/ Can a non-musician founder ever truly understand their customers what's missing from their skillset",
     "id": "2067647983924162695",
     "ts": "2026-06-18T16:37:49.216Z",
@@ -2114,6 +2107,12 @@
     "text": "FOCUS ON INFRASTRUCTURE not applications BUILD FOR THE PLUMBING",
     "id": "2082948038818234688",
     "ts": "2026-07-30T21:54:46.556Z",
+    "type": "general"
+  },
+  {
+    "text": "BUILDING FOR FAILURE is the only way to survive when 90% of your competitors will fold within 2 years",
+    "id": "2083028916428529704",
+    "ts": "2026-07-31T03:16:09.270Z",
     "type": "general"
   }
 ]
