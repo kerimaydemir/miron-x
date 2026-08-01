@@ -1,16 +1,5 @@
 [
   {
-    "text": "Building outside SV forces you to UNDERSTAND YOUR CUSTOMERS not just raise money.",
-    "id": "2068021019105726546",
-    "ts": "2026-06-19T17:20:07.747Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-31T06:34:59.683Z"
-  },
-  {
     "text": "Work gets done in the dark no crowd, just the weight.",
     "id": "2068046078935474586",
     "ts": "2026-06-19T18:59:42.456Z",
@@ -2113,5 +2102,11 @@
     "id": "2083284855454826624",
     "ts": "2026-07-31T20:13:09.891Z",
     "type": "sv"
+  },
+  {
+    "text": "Ownership is KEY when building autonomous systems FOUNDERS who dont own the tech stack are just operators",
+    "id": "2083390876491862148",
+    "ts": "2026-08-01T03:14:27.281Z",
+    "type": "general"
   }
 ]
