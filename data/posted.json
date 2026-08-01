@@ -1,16 +1,5 @@
 [
   {
-    "text": "Builders outside SV have one advantage: NO ECHO CHAMBER to distort product decisions what are you doing with this edge",
-    "id": "2068221410997112862",
-    "ts": "2026-06-20T06:36:24.879Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-31T06:35:02.909Z"
-  },
-  {
     "text": "4/ MARKETING STRATEGIES that actually work are the ones that use REAL DATA not hype",
     "id": "2068349445998358979",
     "ts": "2026-06-20T15:05:10.795Z",
@@ -2133,5 +2122,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-01T06:18:44.751Z"
+  },
+  {
+    "text": "Founders who can't code their own API integrations will always be held hostage by devs.",
+    "id": "2083600164015530161",
+    "ts": "2026-08-01T17:06:05.417Z",
+    "type": "sv"
   }
 ]
