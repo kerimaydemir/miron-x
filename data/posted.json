@@ -1,12 +1,5 @@
 [
   {
-    "text": "5/ How many of your employees will still have a job when the autonomous systems take over",
-    "id": "2068349522473021615",
-    "ts": "2026-06-20T15:05:29.050Z",
-    "type": "thread",
-    "lastChecked": "2026-07-31T06:35:05.052Z"
-  },
-  {
     "text": "VCs overvalue network effects and undervalue PROFITABILITY most founders die from this misunderstanding",
     "id": "2068426103958683951",
     "ts": "2026-06-20T20:09:47.469Z",
@@ -2127,5 +2120,11 @@
     "id": "2083614391111504223",
     "ts": "2026-08-01T18:02:37.314Z",
     "type": "wolf"
+  },
+  {
+    "text": "Survival means owning your AI training data not renting it from cloud providers",
+    "id": "2083669793652011061",
+    "ts": "2026-08-01T21:42:46.299Z",
+    "type": "general"
   }
 ]
