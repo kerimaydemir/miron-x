@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T06:38:14.158Z",
+  "updatedAt": "2026-08-01T06:18:45.094Z",
   "status": "active",
   "totalTweets": 201,
   "tweetsWithEngagement": 0,
@@ -10,7 +10,7 @@
       "avgScore": null
     },
     "sv": {
-      "count": 43,
+      "count": 45,
       "withEngagement": 0,
       "avgScore": null
     },
@@ -20,12 +20,12 @@
       "avgScore": null
     },
     "wolf": {
-      "count": 16,
+      "count": 15,
       "withEngagement": 0,
       "avgScore": null
     },
     "thread": {
-      "count": 31,
+      "count": 30,
       "withEngagement": 0,
       "avgScore": null
     }
@@ -41,7 +41,7 @@
     {
       "keyword": "AI",
       "avgScore": 0,
-      "count": 65
+      "count": 63
     },
     {
       "keyword": "LLM",
@@ -66,12 +66,12 @@
     {
       "keyword": "VC",
       "avgScore": 0,
-      "count": 18
+      "count": 16
     },
     {
       "keyword": "distribution",
       "avgScore": 0,
-      "count": 11
+      "count": 12
     },
     {
       "keyword": "product",
@@ -81,17 +81,17 @@
     {
       "keyword": "build",
       "avgScore": 0,
-      "count": 69
+      "count": 71
     },
     {
       "keyword": "SV",
       "avgScore": 0,
-      "count": 30
+      "count": 28
     }
   ],
   "formatInsights": {
     "avgHighScoreLength": 97,
-    "avgLowScoreLength": 80,
+    "avgLowScoreLength": 81,
     "optimalLengthRange": [
       78,
       116
@@ -101,7 +101,7 @@
     "questionEndingBoost": 1
   },
   "recommendations": [
-    "Optimal length: 78–116 chars (high performers: 97c, low: 80c)",
+    "Optimal length: 78–116 chars (high performers: 97c, low: 81c)",
     "High-performing keywords: \"AI\" (0pts), \"LLM\" (0pts), \"production\" (0pts)"
   ]
 }
