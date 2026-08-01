@@ -1,16 +1,5 @@
 [
   {
-    "text": "Work gets done in the dark no crowd, just the weight.",
-    "id": "2068046078935474586",
-    "ts": "2026-06-19T18:59:42.456Z",
-    "type": "wolf",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-31T06:35:00.763Z"
-  },
-  {
     "text": "Most SV founders overoptimize for VC approval instead of building something that survives MONTH 9 without funding",
     "id": "2068067148124373218",
     "ts": "2026-06-19T20:23:25.738Z",
@@ -2108,5 +2097,11 @@
     "id": "2083390876491862148",
     "ts": "2026-08-01T03:14:27.281Z",
     "type": "general"
+  },
+  {
+    "text": "Distribution beats product every time BUILD FOR REACH",
+    "id": "2083408074052649241",
+    "ts": "2026-08-01T04:22:47.508Z",
+    "type": "sv"
   }
 ]
