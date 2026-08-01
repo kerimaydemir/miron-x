@@ -1,16 +1,5 @@
 [
   {
-    "text": "Most SV founders overoptimize for VC approval instead of building something that survives MONTH 9 without funding",
-    "id": "2068067148124373218",
-    "ts": "2026-06-19T20:23:25.738Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-07-31T06:35:01.838Z"
-  },
-  {
     "text": "Builders outside SV have one advantage: NO ECHO CHAMBER to distort product decisions what are you doing with this edge",
     "id": "2068221410997112862",
     "ts": "2026-06-20T06:36:24.879Z",
@@ -2103,5 +2092,11 @@
     "id": "2083408074052649241",
     "ts": "2026-08-01T04:22:47.508Z",
     "type": "sv"
+  },
+  {
+    "text": "Real autonomy requires OWNERSHIP of data pipelines not just AI models",
+    "id": "2083425609653395686",
+    "ts": "2026-08-01T05:32:28.320Z",
+    "type": "general"
   }
 ]
