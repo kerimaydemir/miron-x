@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T06:18:45.094Z",
+  "updatedAt": "2026-08-02T06:27:42.044Z",
   "status": "active",
   "totalTweets": 201,
   "tweetsWithEngagement": 0,
@@ -10,7 +10,7 @@
       "avgScore": null
     },
     "sv": {
-      "count": 45,
+      "count": 46,
       "withEngagement": 0,
       "avgScore": null
     },
@@ -20,12 +20,12 @@
       "avgScore": null
     },
     "wolf": {
-      "count": 15,
+      "count": 16,
       "withEngagement": 0,
       "avgScore": null
     },
     "thread": {
-      "count": 30,
+      "count": 28,
       "withEngagement": 0,
       "avgScore": null
     }
@@ -41,7 +41,7 @@
     {
       "keyword": "AI",
       "avgScore": 0,
-      "count": 63
+      "count": 64
     },
     {
       "keyword": "LLM",
@@ -56,7 +56,7 @@
     {
       "keyword": "founder",
       "avgScore": 0,
-      "count": 65
+      "count": 66
     },
     {
       "keyword": "startup",
@@ -76,17 +76,17 @@
     {
       "keyword": "product",
       "avgScore": 0,
-      "count": 17
+      "count": 16
     },
     {
       "keyword": "build",
       "avgScore": 0,
-      "count": 71
+      "count": 70
     },
     {
       "keyword": "SV",
       "avgScore": 0,
-      "count": 28
+      "count": 27
     }
   ],
   "formatInsights": {
