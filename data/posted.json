@@ -1,60 +1,5 @@
 [
   {
-    "text": "VCs overvalue network effects and undervalue PROFITABILITY most founders die from this misunderstanding",
-    "id": "2068426103958683951",
-    "ts": "2026-06-20T20:09:47.469Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-02T06:24:25.071Z"
-  },
-  {
-    "text": "BUILDING a profitable startup takes 3 years of grinding not 3 months of pitching VCs",
-    "id": "2068576486701846790",
-    "ts": "2026-06-21T06:07:21.524Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-02T06:24:26.161Z"
-  },
-  {
-    "text": "Distribution is key but most founders mess it up by focusing on the wrong 100 customers BUILD for the 10 who will actually pay",
-    "id": "2068751844890026169",
-    "ts": "2026-06-21T17:44:10.207Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-02T06:24:27.222Z"
-  },
-  {
-    "text": "Building outside SV forces founders to focus on PROFITABILITY not VC approval.",
-    "id": "2068783152428908809",
-    "ts": "2026-06-21T19:48:34.471Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-02T06:24:28.295Z"
-  },
-  {
-    "text": "FOCUS ON OPERATING LEVERAGE not fundraising milestones BUILDING a startup is about surviving 5 years of uncertainty",
-    "id": "2068918281348538430",
-    "ts": "2026-06-22T04:45:31.720Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-02T06:24:29.362Z"
-  },
-  {
     "text": "London founders waste time on perfecting pitch decks when they should be PERFECTING THEIR minimum viable product",
     "id": "2069085041091891478",
     "ts": "2026-06-22T15:48:10.325Z",
@@ -2141,5 +2086,35 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-02T06:24:24.971Z"
+  },
+  {
+    "text": "1/ MOST SUCCESSFUL COMPANIES are built on top of FORGOTTEN TECHNOLOGIES",
+    "id": "2083925252409557090",
+    "ts": "2026-08-02T14:37:52.436Z",
+    "type": "thread"
+  },
+  {
+    "text": "2/ Nokia's success was built on top of FRINGE research in material science",
+    "id": "2083925329005994492",
+    "ts": "2026-08-02T14:38:10.698Z",
+    "type": "thread"
+  },
+  {
+    "text": "3/ Google's search algorithm relied on 10-year-old RESEARCH on link analysis",
+    "id": "2083925405682024874",
+    "ts": "2026-08-02T14:38:29.004Z",
+    "type": "thread"
+  },
+  {
+    "text": "4/ Real innovation often comes from REVISITING OLD PROBLEMS with new perspective",
+    "id": "2083925482488152291",
+    "ts": "2026-08-02T14:38:47.305Z",
+    "type": "thread"
+  },
+  {
+    "text": "5/ What OLD TECH are you reviving to build the future",
+    "id": "2083925559172538613",
+    "ts": "2026-08-02T14:39:05.586Z",
+    "type": "thread"
   }
 ]
