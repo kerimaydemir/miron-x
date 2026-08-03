@@ -1,16 +1,5 @@
 [
   {
-    "text": "BUILDING with AI means accepting 20% of code is WRONG but shipping anyway because DELAY is a bigger risk",
-    "id": "2069161741603463343",
-    "ts": "2026-06-22T20:52:57.160Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-03T06:49:34.872Z"
-  },
-  {
     "text": "Most SV founders die because they optimize for VC approval not PROFITABILITY focus on revenue not fundraising milestones",
     "id": "2069170420922683543",
     "ts": "2026-06-22T21:27:26.478Z",
@@ -2121,5 +2110,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-03T06:49:34.775Z"
+  },
+  {
+    "text": "London founders fixate on seed funding but most startups die from lack of SALES infrastructure",
+    "id": "2084261777542414570",
+    "ts": "2026-08-03T12:55:06.279Z",
+    "type": "london"
   }
 ]
