@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-02T06:27:42.094Z",
+  "updatedAt": "2026-08-03T06:52:55.312Z",
   "errorAnalysis": {
-    "totalRecent": 87,
+    "totalRecent": 83,
     "byScript": {
       "thread.js": {
-        "count": 20,
+        "count": 18,
         "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
       },
       "engage.js": {
@@ -12,14 +12,14 @@
         "lastError": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)"
       },
       "repost.js": {
-        "count": 24,
-        "lastError": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)"
+        "count": 22,
+        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
       }
     },
     "criticalScripts": [
       {
         "script": "thread.js",
-        "count": 20,
+        "count": 18,
         "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
       },
       {
@@ -29,8 +29,8 @@
       },
       {
         "script": "repost.js",
-        "count": 24,
-        "lastError": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)"
+        "count": 22,
+        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
       }
     ]
   },
@@ -40,22 +40,22 @@
     "bestType": null,
     "worstType": null,
     "recommendations": [
-      "Optimal length: 78–116 chars (high performers: 97c, low: 81c)",
+      "Optimal length: 78–116 chars (high performers: 97c, low: 80c)",
       "High-performing keywords: \"AI\" (0pts), \"LLM\" (0pts), \"production\" (0pts)"
     ]
   },
   "growthAnalysis": {
     "currentFollowers": 6,
     "totalGain": 1,
-    "trackingDays": 47,
+    "trackingDays": 48,
     "dailyGrowthRate": 0.02,
     "isStagnant": true,
     "recentGain": 0
   },
   "keywordSuggestions": [],
   "overallRecommendations": [
-    "CRITICAL: Repeated errors in: thread.js (20x), engage.js (43x), repost.js (24x) — check errors.json",
-    "GROWTH STAGNANT: No new followers in 47 tracked days — increase engage.js frequency or adjust content mix"
+    "CRITICAL: Repeated errors in: thread.js (18x), engage.js (43x), repost.js (22x) — check errors.json",
+    "GROWTH STAGNANT: No new followers in 48 tracked days — increase engage.js frequency or adjust content mix"
   ],
   "dynamicConfigUpdated": true
 }
