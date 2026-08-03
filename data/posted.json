@@ -1,16 +1,5 @@
 [
   {
-    "text": "Most SV founders die because they optimize for VC approval not PROFITABILITY focus on revenue not fundraising milestones",
-    "id": "2069170420922683543",
-    "ts": "2026-06-22T21:27:26.478Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-03T06:49:35.938Z"
-  },
-  {
     "text": "Building AI products requires understanding EDGE CASES not just average use.",
     "id": "2069266987679699333",
     "ts": "2026-06-23T03:51:09.791Z",
@@ -2115,6 +2104,12 @@
     "text": "London founders fixate on seed funding but most startups die from lack of SALES infrastructure",
     "id": "2084261777542414570",
     "ts": "2026-08-03T12:55:06.279Z",
+    "type": "london"
+  },
+  {
+    "text": "London founders need to STOP hiring friends and START building teams that can scale without VC handouts",
+    "id": "2084271374323876226",
+    "ts": "2026-08-03T13:33:14.348Z",
     "type": "london"
   }
 ]
