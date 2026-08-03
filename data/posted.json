@@ -1,16 +1,5 @@
 [
   {
-    "text": "Building AI products requires understanding EDGE CASES not just average use.",
-    "id": "2069266987679699333",
-    "ts": "2026-06-23T03:51:09.791Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-03T06:49:37.001Z"
-  },
-  {
     "text": "Autonomous systems will displace 30% of human labor in logistics within 5 years what are you building to own the remainder",
     "id": "2069303078877004183",
     "ts": "2026-06-23T06:14:34.600Z",
@@ -2111,5 +2100,11 @@
     "id": "2084271374323876226",
     "ts": "2026-08-03T13:33:14.348Z",
     "type": "london"
+  },
+  {
+    "text": "BUILD FOR PHYSICAL CONSTRAINTS not theoretical models REAL WORLD LIMITATIONS drive innovation",
+    "id": "2084325788573130916",
+    "ts": "2026-08-03T17:09:27.699Z",
+    "type": "general"
   }
 ]
