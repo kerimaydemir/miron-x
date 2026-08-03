@@ -1,41 +1,5 @@
 [
   {
-    "ts": "2026-07-03T21:07:19.040Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "quote_tweet",
-    "account": "garrytan"
-  },
-  {
-    "ts": "2026-07-03T23:12:57.418Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "stephsmithio"
-  },
-  {
-    "ts": "2026-07-03T23:13:05.316Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "Jason"
-  },
-  {
-    "ts": "2026-07-03T23:13:15.379Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "levelsio"
-  },
-  {
-    "ts": "2026-07-04T14:41:21.934Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 2,
-    "tweet": "2/ Autonomous systems are already being used in TURKISH FARMING to increase crop"
-  },
-  {
     "ts": "2026-07-04T14:41:22.105Z",
     "script": "thread.js",
     "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
@@ -2163,5 +2127,45 @@
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
     "phase": "reply",
     "account": "garrytan"
+  },
+  {
+    "ts": "2026-08-03T15:46:24.476Z",
+    "script": "thread.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "send_tweet",
+    "tweetIndex": 1,
+    "tweet": "1/ MOST DRONE REGULATIONS are outdated because they were written by people who n"
+  },
+  {
+    "ts": "2026-08-03T15:46:24.806Z",
+    "script": "thread.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "send_tweet",
+    "tweetIndex": 2,
+    "tweet": "2/ In Turkey alone 14000 drones are sold every month with NO CLEAR GUIDELINES on"
+  },
+  {
+    "ts": "2026-08-03T15:46:24.929Z",
+    "script": "thread.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "send_tweet",
+    "tweetIndex": 3,
+    "tweet": "3/ 80% of drone accidents are caused by HUMAN ERROR not technical failure"
+  },
+  {
+    "ts": "2026-08-03T15:46:25.063Z",
+    "script": "thread.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "send_tweet",
+    "tweetIndex": 4,
+    "tweet": "4/ Countries with CLEAR DRONE REGULATIONS see 30% more drone-based businesses"
+  },
+  {
+    "ts": "2026-08-03T15:46:25.192Z",
+    "script": "thread.js",
+    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
+    "phase": "send_tweet",
+    "tweetIndex": 5,
+    "tweet": "5/ How many lives will be lost before governments update their DRONE REGULATIONS"
   }
 ]
