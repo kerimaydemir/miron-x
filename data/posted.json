@@ -1,16 +1,5 @@
 [
   {
-    "text": "Pain is a doorway. The wolf walks through it.",
-    "id": "2069150898291708282",
-    "ts": "2026-06-22T20:09:51.911Z",
-    "type": "wolf",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-02T06:24:32.586Z"
-  },
-  {
     "text": "BUILDING with AI means accepting 20% of code is WRONG but shipping anyway because DELAY is a bigger risk",
     "id": "2069161741603463343",
     "ts": "2026-06-22T20:52:57.160Z",
@@ -2106,5 +2095,11 @@
     "id": "2083976649704722767",
     "ts": "2026-08-02T18:02:06.487Z",
     "type": "wolf"
+  },
+  {
+    "text": "Most SV founders die at seed stage because they cant differentiate between marketing and sales",
+    "id": "2084135395327942796",
+    "ts": "2026-08-03T04:32:54.406Z",
+    "type": "sv"
   }
 ]
