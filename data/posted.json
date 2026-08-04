@@ -1,16 +1,5 @@
 [
   {
-    "text": "Autonomous systems will displace 30% of human labor in logistics within 5 years what are you building to own the remainder",
-    "id": "2069303078877004183",
-    "ts": "2026-06-23T06:14:34.600Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-03T06:49:38.065Z"
-  },
-  {
     "text": "1/ Most tech entrepreneurs fail to scale because they can't let go of CONTROL",
     "id": "2069448911832428713",
     "ts": "2026-06-23T15:54:03.891Z",
@@ -2105,6 +2094,12 @@
     "text": "BUILD FOR PHYSICAL CONSTRAINTS not theoretical models REAL WORLD LIMITATIONS drive innovation",
     "id": "2084325788573130916",
     "ts": "2026-08-03T17:09:27.699Z",
+    "type": "general"
+  },
+  {
+    "text": "Building for PHYSICAL CONSTRAINTS forces better design than BUILDING FOR HYPOTHETICAL SCALABILITY",
+    "id": "2084509633100566788",
+    "ts": "2026-08-04T05:19:59.628Z",
     "type": "general"
   }
 ]
