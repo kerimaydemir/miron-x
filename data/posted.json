@@ -1,12 +1,5 @@
 [
   {
-    "text": "1/ Most tech entrepreneurs fail to scale because they can't let go of CONTROL",
-    "id": "2069448911832428713",
-    "ts": "2026-06-23T15:54:03.891Z",
-    "type": "thread",
-    "lastChecked": "2026-08-03T06:49:39.146Z"
-  },
-  {
     "text": "2/ 80% of startup growth comes from 20% of CUSTOMERS who are willing to PAY MORE",
     "id": "2069448988420399367",
     "ts": "2026-06-23T15:54:22.195Z",
@@ -2121,5 +2114,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-04T06:18:11.278Z"
+  },
+  {
+    "text": "London founders focus too much on fundraising. Build to break even instead.",
+    "id": "2084623806027411673",
+    "ts": "2026-08-04T12:53:40.595Z",
+    "type": "london"
   }
 ]
