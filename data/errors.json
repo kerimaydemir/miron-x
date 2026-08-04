@@ -1,21 +1,5 @@
 [
   {
-    "ts": "2026-07-05T14:47:28.126Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 1,
-    "tweet": "1/ MOST DIGITAL AGENCIES are secretly outsourced to EASTERN EUROPEAN FREELANCERS"
-  },
-  {
-    "ts": "2026-07-05T14:47:46.639Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 3,
-    "tweet": "3/ Polish designers create 40% of UK's website layouts using Figma and Sketch"
-  },
-  {
     "ts": "2026-07-05T14:47:46.820Z",
     "script": "thread.js",
     "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
@@ -2164,5 +2148,19 @@
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
     "phase": "reply",
     "account": "shreyas"
+  },
+  {
+    "ts": "2026-08-04T23:10:07.429Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "reply",
+    "account": "mwseibel"
+  },
+  {
+    "ts": "2026-08-04T23:10:22.702Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "reply",
+    "account": "thejustinwelsh"
   }
 ]
