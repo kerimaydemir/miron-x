@@ -1,44 +1,5 @@
 [
   {
-    "text": "2/ 80% of startup growth comes from 20% of CUSTOMERS who are willing to PAY MORE",
-    "id": "2069448988420399367",
-    "ts": "2026-06-23T15:54:22.195Z",
-    "type": "thread",
-    "lastChecked": "2026-08-03T06:49:40.211Z"
-  },
-  {
-    "text": "3/ Real-time DATA FEEDBACK is what separates companies that scale from those that don't",
-    "id": "2069449065163522343",
-    "ts": "2026-06-23T15:54:40.467Z",
-    "type": "thread",
-    "lastChecked": "2026-08-03T06:49:41.274Z"
-  },
-  {
-    "text": "4/ Only 5% of companies successfully INTEGRATE new technologies into their workflow",
-    "id": "2069449141810332009",
-    "ts": "2026-06-23T15:54:58.743Z",
-    "type": "thread",
-    "lastChecked": "2026-08-03T06:49:42.344Z"
-  },
-  {
-    "text": "5/ What's the one metric you're not tracking that's killing your business",
-    "id": "2069449218394141140",
-    "ts": "2026-06-23T15:55:16.993Z",
-    "type": "thread",
-    "lastChecked": "2026-08-03T06:49:43.406Z"
-  },
-  {
-    "text": "VCs prioritize growth over PROFITABILITY and that's why most startups DIE before year 3",
-    "id": "2069481689638649931",
-    "ts": "2026-06-23T18:04:18.736Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-03T06:49:44.467Z"
-  },
-  {
     "text": "Autonomous systems will render 30% of current DRONE REGULATIONS obsolete within 2 years.",
     "id": "2069513542517002361",
     "ts": "2026-06-23T20:10:53.039Z",
@@ -2120,5 +2081,35 @@
     "id": "2084623806027411673",
     "ts": "2026-08-04T12:53:40.595Z",
     "type": "london"
+  },
+  {
+    "text": "1/ MOST DRONE DEPLOYMENTS fail due to poor EDGE CASE handling",
+    "id": "2084662236019298411",
+    "ts": "2026-08-04T15:26:22.997Z",
+    "type": "thread"
+  },
+  {
+    "text": "2/ 85% of drone crashes occur within 3 seconds of takeoff due to BAD SENSOR CALIBRATION",
+    "id": "2084662312372514887",
+    "ts": "2026-08-04T15:26:41.210Z",
+    "type": "thread"
+  },
+  {
+    "text": "3/ REALTIME VIDEO FEEDBACK is crucial for autonomous drone navigation",
+    "id": "2084662388788498546",
+    "ts": "2026-08-04T15:26:59.439Z",
+    "type": "thread"
+  },
+  {
+    "text": "4/ CURRENT DRONE REGULATIONS are based on OUTDATED AIRSPACE MODELS",
+    "id": "2084662465317806350",
+    "ts": "2026-08-04T15:27:17.675Z",
+    "type": "thread"
+  },
+  {
+    "text": "5/ Can autonomous drones REALLY replace human pilots without better INFRASTRUCTURE SUPPORT",
+    "id": "2084662541779902707",
+    "ts": "2026-08-04T15:27:35.921Z",
+    "type": "thread"
   }
 ]
