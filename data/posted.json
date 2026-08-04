@@ -1,16 +1,5 @@
 [
   {
-    "text": "Autonomous systems will render 30% of current DRONE REGULATIONS obsolete within 2 years.",
-    "id": "2069513542517002361",
-    "ts": "2026-06-23T20:10:53.039Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-03T06:49:45.533Z"
-  },
-  {
     "text": "UK founders fixate on fundraising metrics when they should focus on OPERATING LEVERAGE to survive",
     "id": "2069770702836642092",
     "ts": "2026-06-24T13:12:44.836Z",
@@ -2111,5 +2100,11 @@
     "id": "2084662541779902707",
     "ts": "2026-08-04T15:27:35.921Z",
     "type": "thread"
+  },
+  {
+    "text": "SV founders prioritize fundraising over FUNCTIONAL PROOF OF CONCEPT that drives revenue",
+    "id": "2084699170359714077",
+    "ts": "2026-08-04T17:53:08.857Z",
+    "type": "sv"
   }
 ]
