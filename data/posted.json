@@ -1,16 +1,5 @@
 [
   {
-    "text": "staying sharp when life tries to tame you",
-    "id": "2069856576131964978",
-    "ts": "2026-06-24T18:53:58.617Z",
-    "type": "wolf",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-03T06:49:48.722Z"
-  },
-  {
     "text": "Cutting through hype only 1% of startups use AI to actually reduce CUSTOMER SUPPORT tickets the rest just add to noise",
     "id": "2069871058845409429",
     "ts": "2026-06-24T19:51:31.568Z",
@@ -2096,5 +2085,11 @@
     "id": "2084726456677171334",
     "ts": "2026-08-04T19:41:34.408Z",
     "type": "general"
+  },
+  {
+    "text": "Most SV founders overvalue EXPERT NETWORKS and undervalue solo operators who can EXECUTE.",
+    "id": "2084855294149185545",
+    "ts": "2026-08-05T04:13:31.639Z",
+    "type": "sv"
   }
 ]
