@@ -1,16 +1,5 @@
 [
   {
-    "text": "Cutting through hype only 1% of startups use AI to actually reduce CUSTOMER SUPPORT tickets the rest just add to noise",
-    "id": "2069871058845409429",
-    "ts": "2026-06-24T19:51:31.568Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-03T06:49:49.783Z"
-  },
-  {
     "text": "Real CUSTOMER RETENTION is what makes a startup survive not just fundraising milestones",
     "id": "2069904564174606636",
     "ts": "2026-06-24T22:04:39.865Z",
@@ -2091,5 +2080,11 @@
     "id": "2084855294149185545",
     "ts": "2026-08-05T04:13:31.639Z",
     "type": "sv"
+  },
+  {
+    "text": "AI WRITEs BETTER CODE than most junior devs but CANT REPLACE SENIOR ENGINEERS who know what to build",
+    "id": "2084872139597901833",
+    "ts": "2026-08-05T05:20:27.917Z",
+    "type": "general"
   }
 ]
