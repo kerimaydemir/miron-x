@@ -1,16 +1,5 @@
 [
   {
-    "text": "Real CUSTOMER RETENTION is what makes a startup survive not just fundraising milestones",
-    "id": "2069904564174606636",
-    "ts": "2026-06-24T22:04:39.865Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-05T06:16:39.226Z"
-  },
-  {
     "text": "4/ Only 2% of startups have a CLEAR PATH to BREAK EVEN within 2 years",
     "id": "2070170949161541955",
     "ts": "2026-06-25T15:43:11.025Z",
@@ -2121,5 +2110,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-05T06:16:39.071Z"
+  },
+  {
+    "text": "Building in London means slower growth but sharper focus",
+    "id": "2084972671733837879",
+    "ts": "2026-08-05T11:59:56.669Z",
+    "type": "london"
   }
 ]
