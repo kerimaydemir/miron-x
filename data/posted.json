@@ -1,16 +1,5 @@
 [
   {
-    "text": "SV founders obsess over network effects but most can't even optimize their own OPERATING LEVERAGE",
-    "id": "2070209930796417076",
-    "ts": "2026-06-25T18:18:04.985Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-05T06:16:42.492Z"
-  },
-  {
     "text": "Autonomous systems will replace human pilots in commercial drones within 10 years BUILDING with this timeline means designing for FULL AUTOMATION now",
     "id": "2070237082480709723",
     "ts": "2026-06-25T20:05:58.416Z",
@@ -2106,5 +2095,11 @@
     "id": "2085069338558767494",
     "ts": "2026-08-05T18:24:03.805Z",
     "type": "wolf"
+  },
+  {
+    "text": "Bootstrapped founders outlast VC-backed ones because they build for SURVIVAL not SHOWCASE",
+    "id": "2085098431635140893",
+    "ts": "2026-08-05T20:19:40.146Z",
+    "type": "sv"
   }
 ]
