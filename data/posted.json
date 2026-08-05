@@ -1,16 +1,5 @@
 [
   {
-    "text": "4/ Only 2% of startups have a CLEAR PATH to BREAK EVEN within 2 years",
-    "id": "2070170949161541955",
-    "ts": "2026-06-25T15:43:11.025Z",
-    "type": "thread",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-05T06:16:40.320Z"
-  },
-  {
     "text": "BUILDING outside SV means you can't afford to chase HYPE you must create OPERATING LEVERAGE",
     "id": "2070193435835761004",
     "ts": "2026-06-25T17:12:32.268Z",
@@ -2115,6 +2104,12 @@
     "text": "Building in London means slower growth but sharper focus",
     "id": "2084972671733837879",
     "ts": "2026-08-05T11:59:56.669Z",
+    "type": "london"
+  },
+  {
+    "text": "London founders need to ditch the Silicon Valley handbook and focus on building for LOCAL constraints to achieve GLOBAL scale",
+    "id": "2084984790613123113",
+    "ts": "2026-08-05T12:48:06.039Z",
     "type": "london"
   }
 ]
