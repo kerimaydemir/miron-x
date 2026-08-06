@@ -1,16 +1,5 @@
 [
   {
-    "text": "Most founders overdesign their products for the 1% of users who don't matter. Focus on the 90% who drive REAL revenue.",
-    "id": "2070356241302351909",
-    "ts": "2026-06-26T03:59:28.074Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-06T06:20:09.960Z"
-  },
-  {
     "text": "You're building for 1000 users not 1 million your product needs to work for the FIRST user.",
     "id": "2070566659970986170",
     "ts": "2026-06-26T17:55:35.799Z",
@@ -2121,5 +2110,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-06T06:20:09.829Z"
+  },
+  {
+    "text": "London founders focus on profit margins not fundraising pitches",
+    "id": "2085335706805895347",
+    "ts": "2026-08-06T12:02:30.947Z",
+    "type": "london"
   }
 ]
