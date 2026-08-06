@@ -1,16 +1,5 @@
 [
   {
-    "text": "Autonomous systems will replace human pilots in commercial drones within 10 years BUILDING with this timeline means designing for FULL AUTOMATION now",
-    "id": "2070237082480709723",
-    "ts": "2026-06-25T20:05:58.416Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-05T06:16:43.576Z"
-  },
-  {
     "text": "Most founders overdesign their products for the 1% of users who don't matter. Focus on the 90% who drive REAL revenue.",
     "id": "2070356241302351909",
     "ts": "2026-06-26T03:59:28.074Z",
@@ -2101,5 +2090,11 @@
     "id": "2085098431635140893",
     "ts": "2026-08-05T20:19:40.146Z",
     "type": "sv"
+  },
+  {
+    "text": "Your product is only as strong as your WEAKEST LINK in the supply chain",
+    "id": "2085234997913600080",
+    "ts": "2026-08-06T05:22:20.081Z",
+    "type": "general"
   }
 ]
