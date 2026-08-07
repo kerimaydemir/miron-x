@@ -1,16 +1,5 @@
 [
   {
-    "text": "Autonomous drones will kill 30% of logistics jobs in 5 years BUILD something that replaces yourself or die trying",
-    "id": "2070627837107654868",
-    "ts": "2026-06-26T21:58:41.571Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-06T06:20:12.106Z"
-  },
-  {
     "text": "Real CUSTOMERS don't care about AI, they care about RESULTS. What's the one metric that actually matters to the people paying you",
     "id": "2070714359366455503",
     "ts": "2026-06-27T03:42:30.090Z",
@@ -2121,5 +2110,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-07T05:26:02.343Z"
+  },
+  {
+    "text": "Cut debug time by 60% with AI tools or youre wasting money",
+    "id": "2085757076975005719",
+    "ts": "2026-08-07T15:56:53.428Z",
+    "type": "general"
   }
 ]
