@@ -1,16 +1,5 @@
 [
   {
-    "text": "You're building for 1000 users not 1 million your product needs to work for the FIRST user.",
-    "id": "2070566659970986170",
-    "ts": "2026-06-26T17:55:35.799Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-06T06:20:11.031Z"
-  },
-  {
     "text": "Autonomous drones will kill 30% of logistics jobs in 5 years BUILD something that replaces yourself or die trying",
     "id": "2070627837107654868",
     "ts": "2026-06-26T21:58:41.571Z",
@@ -2116,5 +2105,11 @@
     "id": "2085335706805895347",
     "ts": "2026-08-06T12:02:30.947Z",
     "type": "london"
+  },
+  {
+    "text": "BUILDING WITH AI TOOLS means rethinking debug timelines CUT DEBUG TIME BY 60%",
+    "id": "2085558234522259464",
+    "ts": "2026-08-07T02:46:45.693Z",
+    "type": "general"
   }
 ]
