@@ -1,12 +1,5 @@
 [
   {
-    "text": "2/ 80% of startup ideas come from personal experience yet only 20% of founders have WORKED IN THE INDUSTRY they're trying to disrupt",
-    "id": "2070881280569626969",
-    "ts": "2026-06-27T14:45:47.196Z",
-    "type": "thread",
-    "lastChecked": "2026-08-08T04:44:07.640Z"
-  },
-  {
     "text": "3/ Founders who have spent 5 YEARS in their industry have a 50% higher success rate than those who haven't",
     "id": "2070881356998144163",
     "ts": "2026-06-27T14:46:05.514Z",
@@ -2120,5 +2113,11 @@
     "id": "2086130259792113921",
     "ts": "2026-08-08T16:39:47.150Z",
     "type": "sv"
+  },
+  {
+    "text": "Cutting marketing spend by 40% boosts profit margins for 75% of bootstrapped startups",
+    "id": "2086160878815400027",
+    "ts": "2026-08-08T18:41:27.486Z",
+    "type": "general"
   }
 ]
