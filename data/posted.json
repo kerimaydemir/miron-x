@@ -1,16 +1,5 @@
 [
   {
-    "text": "Founders in London waste time on networking events when they should be shipping code and talking to CUSTOMERS that PAY.",
-    "id": "2070840936607666207",
-    "ts": "2026-06-27T12:05:28.553Z",
-    "type": "london",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-06T06:20:15.357Z"
-  },
-  {
     "text": "1/ Most startups die because they can't find a PROBLEM WORTH SOLVING",
     "id": "2070881204161909107",
     "ts": "2026-06-27T14:45:28.967Z",
@@ -2106,5 +2095,11 @@
     "id": "2085813596450148674",
     "ts": "2026-08-07T19:41:28.728Z",
     "type": "sv"
+  },
+  {
+    "text": "BUILD FOR DARK DAY SCENARIOS not best case projections",
+    "id": "2085905912380764450",
+    "ts": "2026-08-08T01:48:18.553Z",
+    "type": "general"
   }
 ]
