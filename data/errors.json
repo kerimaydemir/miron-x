@@ -1,40 +1,5 @@
 [
   {
-    "ts": "2026-07-06T23:15:13.339Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "swyx"
-  },
-  {
-    "ts": "2026-07-06T23:15:23.014Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "pmarca"
-  },
-  {
-    "ts": "2026-07-06T23:15:30.416Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "thejustinwelsh"
-  },
-  {
-    "ts": "2026-07-07T21:24:38.915Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "quote_tweet",
-    "account": "elonmusk"
-  },
-  {
-    "ts": "2026-07-07T21:24:41.476Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "quote_tweet",
-    "account": "gregisenberg"
-  },
-  {
     "ts": "2026-07-07T21:24:44.137Z",
     "script": "repost.js",
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
@@ -2156,5 +2121,45 @@
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
     "phase": "reply",
     "account": "elonmusk"
+  },
+  {
+    "ts": "2026-08-08T13:49:23.503Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 1,
+    "tweet": "1/ MOST COMPANIES OVERLOOK PHYSICAL SECURITY OF THEIR DATA CENTERS"
+  },
+  {
+    "ts": "2026-08-08T13:49:23.618Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 2,
+    "tweet": "2/ 40% of data breaches occur due to UNAUTHORIZED PHYSICAL ACCESS"
+  },
+  {
+    "ts": "2026-08-08T13:49:23.749Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 3,
+    "tweet": "3/ BIOMETRIC AUTHENTICATION is still NOT WIDELY ADOPTED in most data centers"
+  },
+  {
+    "ts": "2026-08-08T13:49:23.896Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 4,
+    "tweet": "4/ AVERAGE COST of a data breach is 4 MILLION DOLLARS"
+  },
+  {
+    "ts": "2026-08-08T13:49:24.040Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 5,
+    "tweet": "5/ How much would you pay to PROTECT YOUR COMPANY'S MOST VALUABLE ASSET"
   }
 ]
