@@ -1,19 +1,5 @@
 [
   {
-    "ts": "2026-07-07T21:24:44.137Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "quote_tweet",
-    "account": "garrytan"
-  },
-  {
-    "ts": "2026-07-08T15:26:19.077Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "garrytan"
-  },
-  {
     "ts": "2026-07-08T15:26:26.739Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
@@ -2161,5 +2147,19 @@
     "phase": "send_tweet",
     "tweetIndex": 5,
     "tweet": "5/ How much would you pay to PROTECT YOUR COMPANY'S MOST VALUABLE ASSET"
+  },
+  {
+    "ts": "2026-08-08T17:18:07.662Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
+    "phase": "reply",
+    "account": "amasad"
+  },
+  {
+    "ts": "2026-08-08T17:18:15.603Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
+    "phase": "reply",
+    "account": "sama"
   }
 ]
