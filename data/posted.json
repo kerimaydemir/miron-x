@@ -1,12 +1,5 @@
 [
   {
-    "text": "3/ Founders who have spent 5 YEARS in their industry have a 50% higher success rate than those who haven't",
-    "id": "2070881356998144163",
-    "ts": "2026-06-27T14:46:05.514Z",
-    "type": "thread",
-    "lastChecked": "2026-08-08T04:44:08.729Z"
-  },
-  {
     "text": "4/ Every successful startup has a FOUNDER WITH SKIN IN THE GAME who understands the problem intimately",
     "id": "2070881433867133024",
     "ts": "2026-06-27T14:46:23.748Z",
@@ -2118,6 +2111,12 @@
     "text": "Cutting marketing spend by 40% boosts profit margins for 75% of bootstrapped startups",
     "id": "2086160878815400027",
     "ts": "2026-08-08T18:41:27.486Z",
+    "type": "general"
+  },
+  {
+    "text": "FOUNDERS WHO BUILD FOR MARKET FLUCTUATIONS OUTLAST THOSE WHO CHASE HYPED TRENDS",
+    "id": "2086269953901236604",
+    "ts": "2026-08-09T01:54:52.818Z",
     "type": "general"
   }
 ]
