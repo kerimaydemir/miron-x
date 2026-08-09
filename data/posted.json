@@ -1,16 +1,5 @@
 [
   {
-    "text": "Distribution is HARDER than building a better product every time SHIPPING is what separates the 2% of startups that survive.",
-    "id": "2071472264940335461",
-    "ts": "2026-06-29T05:54:08.854Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-09T04:53:26.198Z"
-  },
-  {
     "text": "UK founders fixate on US VC approval when they should focus on serving REAL CUSTOMERS in their own backyard",
     "id": "2071595734357651650",
     "ts": "2026-06-29T14:04:46.254Z",
@@ -2121,5 +2110,11 @@
     "id": "2086493086688120869",
     "ts": "2026-08-09T16:41:31.817Z",
     "type": "sv"
+  },
+  {
+    "text": "Pain doesn't stop me.",
+    "id": "2086506498050396315",
+    "ts": "2026-08-09T17:34:49.340Z",
+    "type": "wolf"
   }
 ]
