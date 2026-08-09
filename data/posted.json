@@ -1,12 +1,5 @@
 [
   {
-    "text": "4/ Every successful startup has a FOUNDER WITH SKIN IN THE GAME who understands the problem intimately",
-    "id": "2070881433867133024",
-    "ts": "2026-06-27T14:46:23.748Z",
-    "type": "thread",
-    "lastChecked": "2026-08-08T04:44:09.802Z"
-  },
-  {
     "text": "5/ What's the one industry you've spent years working in that you're not using to build your startup",
     "id": "2070881510417404076",
     "ts": "2026-06-27T14:46:41.985Z",
@@ -2118,5 +2111,11 @@
     "id": "2086269953901236604",
     "ts": "2026-08-09T01:54:52.818Z",
     "type": "general"
+  },
+  {
+    "text": "Building for DARK DAY SCENARIOS makes you resilient SV founders focus on sunshine metrics instead",
+    "id": "2086287133187121152",
+    "ts": "2026-08-09T03:03:08.682Z",
+    "type": "sv"
   }
 ]
