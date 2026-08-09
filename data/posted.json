@@ -1,12 +1,5 @@
 [
   {
-    "text": "5/ What's the one industry you've spent years working in that you're not using to build your startup",
-    "id": "2070881510417404076",
-    "ts": "2026-06-27T14:46:41.985Z",
-    "type": "thread",
-    "lastChecked": "2026-08-08T04:44:10.882Z"
-  },
-  {
     "text": "Most founders overoptimize for AVERAGE USERS instead of designing for the 20% who will actually PAY FOR RESULTS",
     "id": "2070901403854254553",
     "ts": "2026-06-27T16:05:44.968Z",
@@ -2117,5 +2110,11 @@
     "id": "2086287133187121152",
     "ts": "2026-08-09T03:03:08.682Z",
     "type": "sv"
+  },
+  {
+    "text": "Edge cases define your product's real value, not benchmark tests.",
+    "id": "2086298427135005174",
+    "ts": "2026-08-09T03:48:01.375Z",
+    "type": "general"
   }
 ]
