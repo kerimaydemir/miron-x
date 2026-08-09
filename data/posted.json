@@ -1,16 +1,5 @@
 [
   {
-    "text": "AI benchmark theater obscures the fact that 90% of LLMs in production are used for BASIC TEXT CLASSIFICATION not revolutionary use cases",
-    "id": "2071323690562969779",
-    "ts": "2026-06-28T20:03:45.948Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-09T04:53:25.131Z"
-  },
-  {
     "text": "Distribution is HARDER than building a better product every time SHIPPING is what separates the 2% of startups that survive.",
     "id": "2071472264940335461",
     "ts": "2026-06-29T05:54:08.854Z",
@@ -2126,5 +2115,11 @@
     "id": "2086450495431041140",
     "ts": "2026-08-09T13:52:17.264Z",
     "type": "thread"
+  },
+  {
+    "text": "Most SV founders overlook OPERATIONAL DEBT when scaling.",
+    "id": "2086493086688120869",
+    "ts": "2026-08-09T16:41:31.817Z",
+    "type": "sv"
   }
 ]
