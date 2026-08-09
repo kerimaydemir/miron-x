@@ -1,16 +1,5 @@
 [
   {
-    "text": "Most AI systems are designed to fail quietly so users can't tell.",
-    "id": "2070951853832233123",
-    "ts": "2026-06-27T19:26:13.153Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-09T04:53:24.070Z"
-  },
-  {
     "text": "AI benchmark theater obscures the fact that 90% of LLMs in production are used for BASIC TEXT CLASSIFICATION not revolutionary use cases",
     "id": "2071323690562969779",
     "ts": "2026-06-28T20:03:45.948Z",
@@ -2131,5 +2120,11 @@
     "id": "2086412425394266446",
     "ts": "2026-08-09T11:21:00.674Z",
     "type": "london"
+  },
+  {
+    "text": "3/ AI-powered routing cuts fuel consumption by 20% in long-haul trucking",
+    "id": "2086450495431041140",
+    "ts": "2026-08-09T13:52:17.264Z",
+    "type": "thread"
   }
 ]

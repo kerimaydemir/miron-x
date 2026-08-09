@@ -1,33 +1,5 @@
 [
   {
-    "ts": "2026-07-09T18:44:10.141Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "naval"
-  },
-  {
-    "ts": "2026-07-09T18:44:17.798Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "thejustinwelsh"
-  },
-  {
-    "ts": "2026-07-09T18:44:25.490Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "shl"
-  },
-  {
-    "ts": "2026-07-09T18:44:35.900Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "paulg"
-  },
-  {
     "ts": "2026-07-09T21:23:36.235Z",
     "script": "repost.js",
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
@@ -2161,5 +2133,37 @@
     "error": "CreateTweet error: Authorization: The original Tweet author restricted who can reply to this Tweet. (433)",
     "phase": "reply",
     "account": "Jason"
+  },
+  {
+    "ts": "2026-08-09T13:52:17.004Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 1,
+    "tweet": "1/ Autonomous systems will soon control 30% of global logistics"
+  },
+  {
+    "ts": "2026-08-09T13:52:17.094Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 2,
+    "tweet": "2/ Drone tech already reduces delivery times by 45% in rural areas"
+  },
+  {
+    "ts": "2026-08-09T13:52:35.370Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 4,
+    "tweet": "4/ Implementing autonomous logistics systems requires 6 months of real-world tes"
+  },
+  {
+    "ts": "2026-08-09T13:52:35.460Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 5,
+    "tweet": "5/ Can your business survive without being an early adopter of autonomous logist"
   }
 ]
