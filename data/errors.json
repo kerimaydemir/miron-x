@@ -1,13 +1,5 @@
 [
   {
-    "ts": "2026-07-10T15:34:15.697Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 2,
-    "tweet": "2/ Only 12% of founders have a clear EXIT STRATEGY in place"
-  },
-  {
     "ts": "2026-07-10T15:34:15.900Z",
     "script": "thread.js",
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
@@ -2167,5 +2159,12 @@
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
     "phase": "reply",
     "account": "paddycosgrave"
+  },
+  {
+    "ts": "2026-08-10T20:41:46.687Z",
+    "script": "repost.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "quote_tweet",
+    "account": "garrytan"
   }
 ]
