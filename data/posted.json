@@ -1,16 +1,5 @@
 [
   {
-    "text": "London founders should STOP chasing US VCs and focus on building for LOCAL MARKETS first",
-    "id": "2071605331524804783",
-    "ts": "2026-06-29T14:42:54.407Z",
-    "type": "london",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-09T04:53:28.331Z"
-  },
-  {
     "text": "Most SV founders think AI will solve their CUSTOMER SUPPORT problems but 90% of AI usage is just automated email responses",
     "id": "2071658111606174161",
     "ts": "2026-06-29T18:12:38.168Z",
@@ -2111,5 +2100,11 @@
     "id": "2086633546341359625",
     "ts": "2026-08-10T01:59:40.013Z",
     "type": "general"
+  },
+  {
+    "text": "Most founders can't survive 6 months without outside validation BUILD TO LAST not to impress",
+    "id": "2086651948468412646",
+    "ts": "2026-08-10T03:12:47.419Z",
+    "type": "sv"
   }
 ]
