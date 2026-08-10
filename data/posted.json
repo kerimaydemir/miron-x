@@ -1,16 +1,5 @@
 [
   {
-    "text": "SV founders waste time reading playbooks when they should be testing MARKET FIT with tiny budgets and real customers.",
-    "id": "2071823066338922522",
-    "ts": "2026-06-30T05:08:06.437Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-10T05:14:01.105Z"
-  },
-  {
     "text": "Most founders die because they can't say NO to bad ideas SHIPPING what matters means killing what doesn't",
     "id": "2071840925198831910",
     "ts": "2026-06-30T06:19:04.332Z",
@@ -2126,5 +2115,11 @@
     "id": "2086859746728980930",
     "ts": "2026-08-10T16:58:30.381Z",
     "type": "sv"
+  },
+  {
+    "text": "BUILD TO BE COPIED not to be unique",
+    "id": "2086927716637634603",
+    "ts": "2026-08-10T21:28:35.673Z",
+    "type": "general"
   }
 ]
