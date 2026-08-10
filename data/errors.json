@@ -1,34 +1,5 @@
 [
   {
-    "ts": "2026-07-09T23:19:46.514Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "sahilbloom"
-  },
-  {
-    "ts": "2026-07-09T23:19:54.328Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "elonmusk"
-  },
-  {
-    "ts": "2026-07-09T23:20:01.650Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "tibo_maker"
-  },
-  {
-    "ts": "2026-07-10T15:34:15.526Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 1,
-    "tweet": "1/ MOST TECH COMPANIES WILL BE SIDE-HUSTLES BY 2025"
-  },
-  {
     "ts": "2026-07-10T15:34:15.697Z",
     "script": "thread.js",
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
@@ -2168,5 +2139,33 @@
     "phase": "send_tweet",
     "tweetIndex": 4,
     "tweet": "4/ UNDERINVESTING IN SUPPLY CHAIN MANAGEMENT CAN LEAD TO 30% LOSS IN REVENUE"
+  },
+  {
+    "ts": "2026-08-10T17:41:02.204Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
+    "phase": "reply",
+    "account": "shl"
+  },
+  {
+    "ts": "2026-08-10T17:41:09.711Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
+    "phase": "reply",
+    "account": "hnshah"
+  },
+  {
+    "ts": "2026-08-10T17:41:17.240Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
+    "phase": "reply",
+    "account": "alexisohanian"
+  },
+  {
+    "ts": "2026-08-10T17:41:24.758Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
+    "phase": "reply",
+    "account": "paddycosgrave"
   }
 ]
