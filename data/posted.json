@@ -1,16 +1,5 @@
 [
   {
-    "text": "UK founders fixate on US VC approval when they should focus on serving REAL CUSTOMERS in their own backyard",
-    "id": "2071595734357651650",
-    "ts": "2026-06-29T14:04:46.254Z",
-    "type": "london",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-09T04:53:27.268Z"
-  },
-  {
     "text": "London founders should STOP chasing US VCs and focus on building for LOCAL MARKETS first",
     "id": "2071605331524804783",
     "ts": "2026-06-29T14:42:54.407Z",
@@ -2116,5 +2105,11 @@
     "id": "2086506498050396315",
     "ts": "2026-08-09T17:34:49.340Z",
     "type": "wolf"
+  },
+  {
+    "text": "BUILD FOR COMMODITY PRICING not premium valuations",
+    "id": "2086633546341359625",
+    "ts": "2026-08-10T01:59:40.013Z",
+    "type": "general"
   }
 ]
