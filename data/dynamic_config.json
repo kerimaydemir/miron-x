@@ -8,16 +8,16 @@
   },
   "topKeywords": [
     "AI",
-    "LLM",
-    "production",
     "founder",
     "startup",
-    "VC"
+    "VC",
+    "bootstrap",
+    "distribution"
   ],
   "optimalLengthRange": [
-    72,
-    108
+    70,
+    104
   ],
   "questionEndingBoost": 1,
-  "updatedAt": "2026-08-09T04:56:37.928Z"
+  "updatedAt": "2026-08-10T05:17:15.738Z"
 }

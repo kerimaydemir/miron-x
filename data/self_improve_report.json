@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-08-09T04:56:37.929Z",
+  "updatedAt": "2026-08-10T05:17:15.738Z",
   "errorAnalysis": {
-    "totalRecent": 54,
+    "totalRecent": 49,
     "byScript": {
+      "thread.js": {
+        "count": 14,
+        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
+      },
       "engage.js": {
-        "count": 25,
+        "count": 19,
         "lastError": "CreateTweet error: Authorization: The original Tweet author restricted who can reply to this Tweet. (433)"
       },
       "repost.js": {
-        "count": 19,
-        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
-      },
-      "thread.js": {
-        "count": 10,
+        "count": 16,
         "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
       }
     },
     "criticalScripts": [
       {
+        "script": "thread.js",
+        "count": 14,
+        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
+      },
+      {
         "script": "engage.js",
-        "count": 25,
+        "count": 19,
         "lastError": "CreateTweet error: Authorization: The original Tweet author restricted who can reply to this Tweet. (433)"
       },
       {
         "script": "repost.js",
-        "count": 19,
-        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
-      },
-      {
-        "script": "thread.js",
-        "count": 10,
+        "count": 16,
         "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
       }
     ]
@@ -40,22 +40,25 @@
     "bestType": null,
     "worstType": null,
     "recommendations": [
-      "Optimal length: 72–108 chars (high performers: 90c, low: 79c)",
-      "High-performing keywords: \"AI\" (0pts), \"LLM\" (0pts), \"production\" (0pts)"
+      "Optimal length: 70–104 chars (high performers: 87c, low: 78c)",
+      "High-performing keywords: \"AI\" (0pts), \"founder\" (0pts), \"startup\" (0pts)"
     ]
   },
   "growthAnalysis": {
     "currentFollowers": 6,
     "totalGain": 1,
-    "trackingDays": 54,
+    "trackingDays": 55,
     "dailyGrowthRate": 0.02,
     "isStagnant": true,
     "recentGain": 0
   },
-  "keywordSuggestions": [],
+  "keywordSuggestions": [
+    "self-funded founder shipped"
+  ],
   "overallRecommendations": [
-    "CRITICAL: Repeated errors in: engage.js (25x), repost.js (19x), thread.js (10x) — check errors.json",
-    "GROWTH STAGNANT: No new followers in 54 tracked days — increase engage.js frequency or adjust content mix"
+    "CRITICAL: Repeated errors in: thread.js (14x), engage.js (19x), repost.js (16x) — check errors.json",
+    "GROWTH STAGNANT: No new followers in 55 tracked days — increase engage.js frequency or adjust content mix",
+    "NEW SEARCH KEYWORDS: self-funded founder shipped — add to config.SEARCH_KEYWORDS"
   ],
   "dynamicConfigUpdated": true
 }
