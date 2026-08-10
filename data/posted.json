@@ -1,16 +1,5 @@
 [
   {
-    "text": "Your AI agent is only as good as the DATA it's trained on stop relying on PUBLIC datasets",
-    "id": "2071804796563005927",
-    "ts": "2026-06-30T03:55:30.605Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-10T05:14:00.028Z"
-  },
-  {
     "text": "SV founders waste time reading playbooks when they should be testing MARKET FIT with tiny budgets and real customers.",
     "id": "2071823066338922522",
     "ts": "2026-06-30T05:08:06.437Z",
@@ -2131,5 +2120,11 @@
     "id": "2086820300625531287",
     "ts": "2026-08-10T14:21:45.710Z",
     "type": "thread"
+  },
+  {
+    "text": "Distribution beats product every time BUILD FOR MARKET FLUCTUATIONS",
+    "id": "2086859746728980930",
+    "ts": "2026-08-10T16:58:30.381Z",
+    "type": "sv"
   }
 ]
