@@ -1,27 +1,5 @@
 [
   {
-    "text": "Most SV founders think AI will solve their CUSTOMER SUPPORT problems but 90% of AI usage is just automated email responses",
-    "id": "2071658111606174161",
-    "ts": "2026-06-29T18:12:38.168Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-10T05:13:57.884Z"
-  },
-  {
-    "text": "BUILDING with AI means understanding 80% of value comes from 20% of FEATURES that actually work.",
-    "id": "2071685977441976657",
-    "ts": "2026-06-29T20:03:21.889Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-10T05:13:58.955Z"
-  },
-  {
     "text": "Your AI agent is only as good as the DATA it's trained on stop relying on PUBLIC datasets",
     "id": "2071804796563005927",
     "ts": "2026-06-30T03:55:30.605Z",
@@ -2141,5 +2119,17 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-10T05:13:57.771Z"
+  },
+  {
+    "text": "1/ MOST NEW TECH VENTURES FAIL BECAUSE THEY IGNORE PHYSICAL INFRASTRUCTURE",
+    "id": "2086820221957074984",
+    "ts": "2026-08-10T14:21:26.939Z",
+    "type": "thread"
+  },
+  {
+    "text": "5/ Can your startup survive a 6-month port congestion what's your plan",
+    "id": "2086820300625531287",
+    "ts": "2026-08-10T14:21:45.710Z",
+    "type": "thread"
   }
 ]
