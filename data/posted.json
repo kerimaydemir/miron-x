@@ -1,16 +1,5 @@
 [
   {
-    "text": "staying sharp when life tries to tame you",
-    "id": "2072032298162147642",
-    "ts": "2026-06-30T18:59:31.197Z",
-    "type": "wolf",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-10T05:14:04.324Z"
-  },
-  {
     "text": "FOUNDERS who outsource AI development to cheap labor will get what they pay for SECURITY RISKS AND BUGS",
     "id": "2072079175251579225",
     "ts": "2026-06-30T22:05:47.528Z",
@@ -2123,5 +2112,11 @@
     "id": "2087237327391441164",
     "ts": "2026-08-11T17:58:52.632Z",
     "type": "wolf"
+  },
+  {
+    "text": "VCs inflate valuations to exit fast forget that BUILDING LASTS longer than HYPE",
+    "id": "2087265696338358488",
+    "ts": "2026-08-11T19:51:36.317Z",
+    "type": "sv"
   }
 ]
