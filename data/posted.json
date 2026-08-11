@@ -1,16 +1,5 @@
 [
   {
-    "text": "Most founders die because they can't say NO to bad ideas SHIPPING what matters means killing what doesn't",
-    "id": "2071840925198831910",
-    "ts": "2026-06-30T06:19:04.332Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-10T05:14:02.177Z"
-  },
-  {
     "text": "VCs care about GROWTH not PROFIT so focus on building a BUSINESS not a pitch deck",
     "id": "2072017951813779617",
     "ts": "2026-06-30T18:02:30.739Z",
@@ -2133,5 +2122,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-11T04:56:29.171Z"
+  },
+  {
+    "text": "SV hype doesn't translate here BUILD FOR LOCAL EDGE CASES",
+    "id": "2087129536945336797",
+    "ts": "2026-08-11T10:50:33.377Z",
+    "type": "london"
   }
 ]
