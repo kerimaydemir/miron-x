@@ -1,16 +1,5 @@
 [
   {
-    "text": "SV founders think AI replaces human work but 90% of AI value comes from edge cases they never automate",
-    "id": "2072380509561217142",
-    "ts": "2026-07-01T18:03:11.257Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-12T05:21:21.309Z"
-  },
-  {
     "text": "stay sharp when life tries to tame you",
     "id": "2072395062474920152",
     "ts": "2026-07-01T19:01:03.100Z",
@@ -2123,5 +2112,11 @@
     "id": "2087599821666570363",
     "ts": "2026-08-12T17:59:18.008Z",
     "type": "wolf"
+  },
+  {
+    "text": "Real growth happens when you optimize for LOCAL FAILURE POINTS not global benchmarks",
+    "id": "2087616308485476614",
+    "ts": "2026-08-12T19:04:48.777Z",
+    "type": "general"
   }
 ]
