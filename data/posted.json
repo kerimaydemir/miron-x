@@ -1,16 +1,5 @@
 [
   {
-    "text": "SV founders focus too much on PRODUCT MARKET FIT when they should be building a BUSINESS that can survive without VC money",
-    "id": "2072189803492245709",
-    "ts": "2026-07-01T05:25:23.367Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-12T05:21:19.153Z"
-  },
-  {
     "text": "Stop building for EARLY ADOPTERS focus on PEOPLE WHO ACTUALLY PAY",
     "id": "2072208402139202011",
     "ts": "2026-07-01T06:39:17.642Z",
@@ -2133,5 +2122,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-12T05:21:19.051Z"
+  },
+  {
+    "text": "London founders fixate on SV fundraising tactics ignoring LOCAL REGULATION advantages",
+    "id": "2087494360925683805",
+    "ts": "2026-08-12T11:00:14.190Z",
+    "type": "london"
   }
 ]
