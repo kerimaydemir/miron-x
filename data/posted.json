@@ -1,16 +1,5 @@
 [
   {
-    "text": "FOUNDERS who outsource AI development to cheap labor will get what they pay for SECURITY RISKS AND BUGS",
-    "id": "2072079175251579225",
-    "ts": "2026-06-30T22:05:47.528Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-10T05:14:05.395Z"
-  },
-  {
     "text": "SV founders focus too much on PRODUCT MARKET FIT when they should be building a BUSINESS that can survive without VC money",
     "id": "2072189803492245709",
     "ts": "2026-07-01T05:25:23.367Z",
@@ -2117,6 +2106,12 @@
     "text": "VCs inflate valuations to exit fast forget that BUILDING LASTS longer than HYPE",
     "id": "2087265696338358488",
     "ts": "2026-08-11T19:51:36.317Z",
+    "type": "sv"
+  },
+  {
+    "text": "VCs dont fund SURVIVABILITY they fund HYPE",
+    "id": "2087379731209462124",
+    "ts": "2026-08-12T03:24:44.506Z",
     "type": "sv"
   }
 ]
