@@ -1,26 +1,5 @@
 [
   {
-    "ts": "2026-07-11T22:56:59.321Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "gregisenberg"
-  },
-  {
-    "ts": "2026-07-11T22:57:07.107Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "garrytan"
-  },
-  {
-    "ts": "2026-07-11T22:57:14.746Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "jasonlk"
-  },
-  {
     "ts": "2026-07-11T22:57:26.709Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
@@ -2159,5 +2138,26 @@
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
     "phase": "reply",
     "account": "jasonlk"
+  },
+  {
+    "ts": "2026-08-13T17:46:16.916Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "reply",
+    "account": "jasonlk"
+  },
+  {
+    "ts": "2026-08-13T17:46:29.088Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "reply",
+    "account": "elonmusk"
+  },
+  {
+    "ts": "2026-08-13T17:46:36.807Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "reply",
+    "account": "dvassallo"
   }
 ]
