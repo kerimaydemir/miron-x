@@ -1,16 +1,5 @@
 [
   {
-    "text": "Most founders waste time optimizing for SCALE when they should be optimizing for SURVIVABILITY first 6 months are about staying alive",
-    "id": "2072420976151724400",
-    "ts": "2026-07-01T20:43:59.222Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-13T05:25:34.179Z"
-  },
-  {
     "text": "SV founders obsess over PRODUCT MARKET FIT but PROFITABLE CUSTOMER ACQUISITION is what keeps you alive",
     "id": "2072546145516368312",
     "ts": "2026-07-02T05:01:21.927Z",
@@ -2133,5 +2122,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-13T05:25:34.012Z"
+  },
+  {
+    "text": "BUILD FOR FAILURE first, not success, and you'll last longer than the HYPE.",
+    "id": "2087931910978777295",
+    "ts": "2026-08-13T15:58:54.281Z",
+    "type": "general"
   }
 ]
