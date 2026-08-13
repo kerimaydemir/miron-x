@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-08-12T05:24:43.918Z",
+  "updatedAt": "2026-08-13T05:29:07.998Z",
   "errorAnalysis": {
-    "totalRecent": 50,
+    "totalRecent": 53,
     "byScript": {
-      "engage.js": {
-        "count": 22,
-        "lastError": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)"
-      },
       "repost.js": {
-        "count": 16,
+        "count": 17,
+        "lastError": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}"
+      },
+      "engage.js": {
+        "count": 24,
         "lastError": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)"
       },
       "thread.js": {
@@ -18,13 +18,13 @@
     },
     "criticalScripts": [
       {
-        "script": "engage.js",
-        "count": 22,
-        "lastError": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)"
+        "script": "repost.js",
+        "count": 17,
+        "lastError": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}"
       },
       {
-        "script": "repost.js",
-        "count": 16,
+        "script": "engage.js",
+        "count": 24,
         "lastError": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)"
       },
       {
@@ -47,7 +47,7 @@
   "growthAnalysis": {
     "currentFollowers": 6,
     "totalGain": 1,
-    "trackingDays": 57,
+    "trackingDays": 58,
     "dailyGrowthRate": 0.02,
     "isStagnant": true,
     "recentGain": 0
@@ -56,8 +56,8 @@
     "self-funded founder shipped"
   ],
   "overallRecommendations": [
-    "CRITICAL: Repeated errors in: engage.js (22x), repost.js (16x), thread.js (12x) — check errors.json",
-    "GROWTH STAGNANT: No new followers in 57 tracked days — increase engage.js frequency or adjust content mix",
+    "CRITICAL: Repeated errors in: repost.js (17x), engage.js (24x), thread.js (12x) — check errors.json",
+    "GROWTH STAGNANT: No new followers in 58 tracked days — increase engage.js frequency or adjust content mix",
     "NEW SEARCH KEYWORDS: self-funded founder shipped — add to config.SEARCH_KEYWORDS"
   ],
   "dynamicConfigUpdated": true
