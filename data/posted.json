@@ -1,16 +1,5 @@
 [
   {
-    "text": "SV founders obsess over PRODUCT MARKET FIT but PROFITABLE CUSTOMER ACQUISITION is what keeps you alive",
-    "id": "2072546145516368312",
-    "ts": "2026-07-02T05:01:21.927Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-13T05:25:35.286Z"
-  },
-  {
     "text": "FOUNDERs who can't code are like captains who can't navigate BUILDING with AI means getting your hands dirty",
     "id": "2072562258421440897",
     "ts": "2026-07-02T06:05:23.555Z",
@@ -2128,5 +2117,11 @@
     "id": "2087931910978777295",
     "ts": "2026-08-13T15:58:54.281Z",
     "type": "general"
+  },
+  {
+    "text": "men sharpen under pressure others fold",
+    "id": "2087962196840177799",
+    "ts": "2026-08-13T17:59:14.976Z",
+    "type": "wolf"
   }
 ]
