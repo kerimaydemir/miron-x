@@ -1,16 +1,5 @@
 [
   {
-    "text": "stay sharp when life tries to tame you",
-    "id": "2072395062474920152",
-    "ts": "2026-07-01T19:01:03.100Z",
-    "type": "wolf",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-12T05:21:22.385Z"
-  },
-  {
     "text": "Most founders waste time optimizing for SCALE when they should be optimizing for SURVIVABILITY first 6 months are about staying alive",
     "id": "2072420976151724400",
     "ts": "2026-07-01T20:43:59.222Z",
@@ -2117,6 +2106,12 @@
     "text": "Real growth happens when you optimize for LOCAL FAILURE POINTS not global benchmarks",
     "id": "2087616308485476614",
     "ts": "2026-08-12T19:04:48.777Z",
+    "type": "general"
+  },
+  {
+    "text": "BUILD FOR COMMODITY PRICING or die trying to maintain premiums that dont exist",
+    "id": "2087755477195149760",
+    "ts": "2026-08-13T04:17:49.167Z",
     "type": "general"
   }
 ]
