@@ -1,16 +1,5 @@
 [
   {
-    "text": "AI agents won't save your startup, PROFITABLE CUSTOMER ACQUISITION will, focus on that.",
-    "id": "2072741148615958928",
-    "ts": "2026-07-02T17:56:14.295Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-13T05:25:38.621Z"
-  },
-  {
     "text": "Most founders design for AVERAGE OUTCOMES instead of optimizing for EXTREME USERS who drive REAL GROWTH",
     "id": "2072801265692627215",
     "ts": "2026-07-02T21:55:07.396Z",
@@ -2128,5 +2117,11 @@
     "id": "2088309418613961123",
     "ts": "2026-08-14T16:58:59.122Z",
     "type": "sv"
+  },
+  {
+    "text": "Autonomous systems will REPLACE 70% of human customer support within 5 years.",
+    "id": "2088339506076221479",
+    "ts": "2026-08-14T18:58:32.500Z",
+    "type": "general"
   }
 ]
