@@ -1,29 +1,5 @@
 [
   {
-    "ts": "2026-07-14T14:56:53.099Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 2,
-    "tweet": "2/ Turkish e-commerce sites have 30% higher checkout abandonment rates due to ou"
-  },
-  {
-    "ts": "2026-07-14T14:56:53.228Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 3,
-    "tweet": "3/ Average customer support ticket resolution time is 24 hours in EU versus 12 h"
-  },
-  {
-    "ts": "2026-07-14T14:56:53.365Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 4,
-    "tweet": "4/ 60% of online shopping carts are abandoned due to lack of transparent shippin"
-  },
-  {
     "ts": "2026-07-14T14:56:53.502Z",
     "script": "thread.js",
     "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
@@ -2158,5 +2134,26 @@
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
     "phase": "reply",
     "account": "levelsio"
+  },
+  {
+    "ts": "2026-08-14T14:17:11.084Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "reply",
+    "account": "levelsio"
+  },
+  {
+    "ts": "2026-08-14T14:17:18.708Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "reply",
+    "account": "swyx"
+  },
+  {
+    "ts": "2026-08-14T14:17:43.030Z",
+    "script": "engage.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "reply",
+    "account": "shreyas"
   }
 ]
