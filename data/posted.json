@@ -1,16 +1,5 @@
 [
   {
-    "text": "London founders fixate on competing with SV instead of exploiting local advantages like lower burn rates and diverse talent pools",
-    "id": "2072653833092649354",
-    "ts": "2026-07-02T12:09:16.646Z",
-    "type": "london",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-13T05:25:37.513Z"
-  },
-  {
     "text": "AI agents won't save your startup, PROFITABLE CUSTOMER ACQUISITION will, focus on that.",
     "id": "2072741148615958928",
     "ts": "2026-07-02T17:56:14.295Z",
@@ -2133,5 +2122,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-14T05:22:38.114Z"
+  },
+  {
+    "text": "SV founders waste 80% of time on fundraising pitches instead of shipping code that sells.",
+    "id": "2088309418613961123",
+    "ts": "2026-08-14T16:58:59.122Z",
+    "type": "sv"
   }
 ]
