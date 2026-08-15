@@ -1,60 +1,5 @@
 [
   {
-    "text": "Build for the 4am user not the 4pm one DIFFERENCE BETWEEN LIFE AND DEATH is what actually works",
-    "id": "2073128323559924006",
-    "ts": "2026-07-03T19:34:44.000Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-15T04:17:51.078Z"
-  },
-  {
-    "text": "London founders focus on LOCAL PROFITS not global validation BUILD something that pays the bills",
-    "id": "2073376781885682104",
-    "ts": "2026-07-04T12:02:01.089Z",
-    "type": "london",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-15T04:17:52.133Z"
-  },
-  {
-    "text": "1/ Most DRONE REGULATIONS are based on 10-year-old technology",
-    "id": "2073416806748860669",
-    "ts": "2026-07-04T14:41:03.745Z",
-    "type": "thread",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-15T04:17:53.192Z"
-  },
-  {
-    "text": "BUILDING with AI means accepting 90% of your codebase will be OVERRIDDEN by 10% of real user needs",
-    "id": "2073486928217866624",
-    "ts": "2026-07-04T19:19:42.018Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-15T04:17:54.244Z"
-  },
-  {
-    "text": "SV founders think distribution is someone else's problem it's yours from day one",
-    "id": "2073497718279004476",
-    "ts": "2026-07-04T20:02:34.552Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-15T04:17:55.294Z"
-  },
-  {
     "text": "AUTONOMOUS SYSTEMS require REDUNDANT DESIGN to survive real-world failures BUILD FOR IT",
     "id": "2073523217126322433",
     "ts": "2026-07-04T21:43:53.957Z",
@@ -2123,5 +2068,35 @@
     "id": "2088584375747108929",
     "ts": "2026-08-15T11:11:34.001Z",
     "type": "london"
+  },
+  {
+    "text": "1/ MOST AI AGENTS ARE DESIGNED TO FAIL IN LOW DATA ENVIRONMENTS",
+    "id": "2088620145044590667",
+    "ts": "2026-08-15T13:33:42.049Z",
+    "type": "thread"
+  },
+  {
+    "text": "2/ Only 12% of AI models are trained on datasets smaller than 100k records",
+    "id": "2088620221414433080",
+    "ts": "2026-08-15T13:34:00.261Z",
+    "type": "thread"
+  },
+  {
+    "text": "3/ 75% of edge cases occur in environments with limited data connectivity",
+    "id": "2088620297864036823",
+    "ts": "2026-08-15T13:34:18.489Z",
+    "type": "thread"
+  },
+  {
+    "text": "4/ Current LLMs require at least 100x more data than traditional rule-based systems",
+    "id": "2088620374347149669",
+    "ts": "2026-08-15T13:34:36.733Z",
+    "type": "thread"
+  },
+  {
+    "text": "5/ Can your AI agent operate effectively with LESS THAN 1MB of training data",
+    "id": "2088620450834501980",
+    "ts": "2026-08-15T13:34:54.988Z",
+    "type": "thread"
   }
 ]
