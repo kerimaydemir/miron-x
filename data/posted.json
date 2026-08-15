@@ -1,16 +1,5 @@
 [
   {
-    "text": "AUTONOMOUS SYSTEMS require REDUNDANT DESIGN to survive real-world failures BUILD FOR IT",
-    "id": "2073523217126322433",
-    "ts": "2026-07-04T21:43:53.957Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-15T04:17:56.350Z"
-  },
-  {
     "text": "London founders need to stop apologizing for smaller markets and build for PROFIT not PR.",
     "id": "2073732495401779388",
     "ts": "2026-07-05T11:35:29.788Z",
@@ -2098,5 +2087,11 @@
     "id": "2088620450834501980",
     "ts": "2026-08-15T13:34:54.988Z",
     "type": "thread"
+  },
+  {
+    "text": "VCs prioritize growth over PROFITABILITY that's why most SV startups DIE BEFORE BREAK EVEN",
+    "id": "2088664708874215434",
+    "ts": "2026-08-15T16:30:46.905Z",
+    "type": "sv"
   }
 ]
