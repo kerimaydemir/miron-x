@@ -1,16 +1,5 @@
 [
   {
-    "text": "AI coding tools change everything when you're shipping daily and every line of code has a direct cost attached to it",
-    "id": "2073080607140171924",
-    "ts": "2026-07-03T16:25:07.524Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-15T04:17:50.023Z"
-  },
-  {
     "text": "Build for the 4am user not the 4pm one DIFFERENCE BETWEEN LIFE AND DEATH is what actually works",
     "id": "2073128323559924006",
     "ts": "2026-07-03T19:34:44.000Z",
@@ -2127,6 +2116,12 @@
     "text": "Local regulations are your advantage BUILD FOR COMPLIANCE",
     "id": "2088571979804586187",
     "ts": "2026-08-15T10:22:18.566Z",
+    "type": "london"
+  },
+  {
+    "text": "London founders must prioritize HARDWARE INTEGRATION over software hype to survive",
+    "id": "2088584375747108929",
+    "ts": "2026-08-15T11:11:34.001Z",
     "type": "london"
   }
 ]
