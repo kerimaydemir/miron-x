@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T05:22:38.181Z",
+  "updatedAt": "2026-08-15T04:21:07.509Z",
   "status": "active",
   "totalTweets": 201,
   "tweetsWithEngagement": 0,
@@ -10,12 +10,12 @@
       "avgScore": null
     },
     "sv": {
-      "count": 41,
+      "count": 42,
       "withEngagement": 0,
       "avgScore": null
     },
     "london": {
-      "count": 26,
+      "count": 25,
       "withEngagement": 0,
       "avgScore": null
     },
@@ -46,12 +46,12 @@
     {
       "keyword": "founder",
       "avgScore": 0,
-      "count": 58
+      "count": 57
     },
     {
       "keyword": "startup",
       "avgScore": 0,
-      "count": 13
+      "count": 12
     },
     {
       "keyword": "VC",
@@ -86,22 +86,22 @@
     {
       "keyword": "London",
       "avgScore": 0,
-      "count": 22
+      "count": 21
     }
   ],
   "formatInsights": {
-    "avgHighScoreLength": 83,
-    "avgLowScoreLength": 73,
+    "avgHighScoreLength": 81,
+    "avgLowScoreLength": 74,
     "optimalLengthRange": [
-      66,
-      100
+      65,
+      97
     ],
     "questionEndingInTop": 0,
     "questionEndingOverall": 0,
     "questionEndingBoost": 1
   },
   "recommendations": [
-    "Optimal length: 66–100 chars (high performers: 83c, low: 73c)",
+    "Optimal length: 65–97 chars (high performers: 81c, low: 74c)",
     "High-performing keywords: \"AI\" (0pts), \"founder\" (0pts), \"startup\" (0pts)"
   ]
 }
