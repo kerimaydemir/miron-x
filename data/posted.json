@@ -1,16 +1,5 @@
 [
   {
-    "text": "London founders need to stop apologizing for smaller markets and build for PROFIT not PR.",
-    "id": "2073732495401779388",
-    "ts": "2026-07-05T11:35:29.788Z",
-    "type": "london",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-15T04:17:57.413Z"
-  },
-  {
     "text": "BUILDING in London means embracing timezone advantages to ship faster than SV counterparts",
     "id": "2073741197709832412",
     "ts": "2026-07-05T12:10:04.608Z",
@@ -2093,5 +2082,11 @@
     "id": "2088664708874215434",
     "ts": "2026-08-15T16:30:46.905Z",
     "type": "sv"
+  },
+  {
+    "text": "Men sharpen under pressure others fold",
+    "id": "2088678074208387123",
+    "ts": "2026-08-15T17:23:53.445Z",
+    "type": "wolf"
   }
 ]
