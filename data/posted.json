@@ -1,16 +1,5 @@
 [
   {
-    "text": "Markets outside US and EU are 70% of global GDP BUILD FOR THEM FIRST",
-    "id": "2072886266023059525",
-    "ts": "2026-07-03T03:32:52.997Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-15T04:17:48.960Z"
-  },
-  {
     "text": "AI coding tools change everything when you're shipping daily and every line of code has a direct cost attached to it",
     "id": "2073080607140171924",
     "ts": "2026-07-03T16:25:07.524Z",
@@ -2133,5 +2122,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-15T04:17:48.847Z"
+  },
+  {
+    "text": "Local regulations are your advantage BUILD FOR COMPLIANCE",
+    "id": "2088571979804586187",
+    "ts": "2026-08-15T10:22:18.566Z",
+    "type": "london"
   }
 ]
