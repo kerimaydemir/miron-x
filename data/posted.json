@@ -1,16 +1,5 @@
 [
   {
-    "text": "BUILDING with AI means accepting FAILURE as a DESIGN INPUT not an error rate.",
-    "id": "2074021206081044766",
-    "ts": "2026-07-06T06:42:43.767Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-16T04:23:15.983Z"
-  },
-  {
     "text": "London founders waste time chasing PERFECT PRODUCT when PROFITABLE PRICING is what actually works",
     "id": "2074127544060719281",
     "ts": "2026-07-06T13:45:16.764Z",
@@ -2098,5 +2087,11 @@
     "id": "2088982847079985413",
     "ts": "2026-08-16T13:34:56.973Z",
     "type": "thread"
+  },
+  {
+    "text": "AI agents fail in LOW DATA ENVIRONMENTS build for scarcity not abundance",
+    "id": "2089096735079493985",
+    "ts": "2026-08-16T21:07:30.015Z",
+    "type": "general"
   }
 ]
