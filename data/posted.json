@@ -1,16 +1,5 @@
 [
   {
-    "text": "You're still chasing US VC approval when your real competitive edge is being outside SV.",
-    "id": "2073818638789058810",
-    "ts": "2026-07-05T17:17:47.976Z",
-    "type": "sv",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-16T04:23:12.761Z"
-  },
-  {
     "text": "Real WORLD distribution beats PERFECT code every time SHIPPING is what makes a startup.",
     "id": "2073850242483544103",
     "ts": "2026-07-05T19:23:22.877Z",
@@ -2113,5 +2102,11 @@
     "replies": 0,
     "score": 0,
     "lastChecked": "2026-08-16T04:23:12.628Z"
+  },
+  {
+    "text": "You're wasting time talking to VCs when you should be talking to your first 10 customers",
+    "id": "2088946948371796162",
+    "ts": "2026-08-16T11:12:18.054Z",
+    "type": "london"
   }
 ]
