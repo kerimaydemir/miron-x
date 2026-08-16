@@ -1,27 +1,5 @@
 [
   {
-    "text": "Real WORLD distribution beats PERFECT code every time SHIPPING is what makes a startup.",
-    "id": "2073850242483544103",
-    "ts": "2026-07-05T19:23:22.877Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-16T04:23:13.835Z"
-  },
-  {
-    "text": "Most founders die from OVERENGINEERING not lack of funding SHIPPING beats perfection every time",
-    "id": "2073977914928792001",
-    "ts": "2026-07-06T03:50:42.365Z",
-    "type": "general",
-    "likes": 0,
-    "retweets": 0,
-    "replies": 0,
-    "score": 0,
-    "lastChecked": "2026-08-16T04:23:14.909Z"
-  },
-  {
     "text": "BUILDING with AI means accepting FAILURE as a DESIGN INPUT not an error rate.",
     "id": "2074021206081044766",
     "ts": "2026-07-06T06:42:43.767Z",
@@ -2108,5 +2086,17 @@
     "id": "2088946948371796162",
     "ts": "2026-08-16T11:12:18.054Z",
     "type": "london"
+  },
+  {
+    "text": "2/ Forum software is still based on 20-year-old architectures that prioritize POST COUNT over engagement quality",
+    "id": "2088982769971982588",
+    "ts": "2026-08-16T13:34:38.596Z",
+    "type": "thread"
+  },
+  {
+    "text": "4/ REAL COMMUNITY BUILDING requires intentional design and Moderation that scales with user growth",
+    "id": "2088982847079985413",
+    "ts": "2026-08-16T13:34:56.973Z",
+    "type": "thread"
   }
 ]

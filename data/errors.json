@@ -1,26 +1,5 @@
 [
   {
-    "ts": "2026-07-16T17:58:14.709Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "hnshah"
-  },
-  {
-    "ts": "2026-07-16T17:58:22.405Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "swyx"
-  },
-  {
-    "ts": "2026-07-16T17:58:30.174Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "pmarca"
-  },
-  {
     "ts": "2026-07-16T20:58:36.259Z",
     "script": "repost.js",
     "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
@@ -2150,5 +2129,29 @@
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
     "phase": "reply",
     "account": "swyx"
+  },
+  {
+    "ts": "2026-08-16T13:34:38.366Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 1,
+    "tweet": "1/ Most ONLINE COMMUNITIES are designed to harvest user data not facilitate mean"
+  },
+  {
+    "ts": "2026-08-16T13:34:56.747Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 3,
+    "tweet": "3/ 85% of online discussions are dominated by less than 5% of users"
+  },
+  {
+    "ts": "2026-08-16T13:35:15.104Z",
+    "script": "thread.js",
+    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
+    "phase": "send_tweet",
+    "tweetIndex": 5,
+    "tweet": "5/ Can you name one online community that has successfully balanced user growth "
   }
 ]
