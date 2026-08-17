@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-08-16T04:26:36.718Z",
+  "updatedAt": "2026-08-17T04:32:48.921Z",
   "errorAnalysis": {
-    "totalRecent": 68,
+    "totalRecent": 72,
     "byScript": {
       "thread.js": {
-        "count": 7,
-        "lastError": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}"
+        "count": 6,
+        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
       },
       "engage.js": {
-        "count": 39,
+        "count": 44,
         "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
       },
       "repost.js": {
@@ -19,12 +19,12 @@
     "criticalScripts": [
       {
         "script": "thread.js",
-        "count": 7,
-        "lastError": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}"
+        "count": 6,
+        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
       },
       {
         "script": "engage.js",
-        "count": 39,
+        "count": 44,
         "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
       },
       {
@@ -40,21 +40,21 @@
     "bestType": null,
     "worstType": null,
     "recommendations": [
-      "Optimal length: 63–95 chars (high performers: 79c, low: 73c)",
+      "Optimal length: 62–94 chars (high performers: 78c, low: 74c)",
       "High-performing keywords: \"AI\" (0pts), \"LLM\" (0pts), \"founder\" (0pts)"
     ]
   },
   "growthAnalysis": {
     "currentFollowers": 5,
     "totalGain": 0,
-    "trackingDays": 61,
+    "trackingDays": 62,
     "dailyGrowthRate": 0,
     "isStagnant": false,
     "recentGain": -1
   },
   "keywordSuggestions": [],
   "overallRecommendations": [
-    "CRITICAL: Repeated errors in: thread.js (7x), engage.js (39x), repost.js (22x) — check errors.json"
+    "CRITICAL: Repeated errors in: thread.js (6x), engage.js (44x), repost.js (22x) — check errors.json"
   ],
   "dynamicConfigUpdated": true
 }
