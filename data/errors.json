@@ -1,50 +1,5 @@
 [
   {
-    "ts": "2026-07-19T14:25:04.624Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 3,
-    "tweet": "3/ RECRUITING and TRAINING new staff takes 6 MONTHS on average and COSTS $10k pe"
-  },
-  {
-    "ts": "2026-07-19T14:25:04.850Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 4,
-    "tweet": "4/ Only COMPANIES with VARIABLE costs and REMOTE workforces will be able to ADAP"
-  },
-  {
-    "ts": "2026-07-19T14:25:05.002Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 5,
-    "tweet": "5/ What's the ONE thing your company can do TODAY to reduce FIXED costs and incr"
-  },
-  {
-    "ts": "2026-07-20T15:14:43.126Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "shl"
-  },
-  {
-    "ts": "2026-07-20T15:14:50.861Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "swyx"
-  },
-  {
-    "ts": "2026-07-20T15:15:00.563Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "Jason"
-  },
-  {
     "ts": "2026-07-20T15:15:08.542Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
@@ -2149,5 +2104,47 @@
     "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
     "phase": "reply",
     "account": "sama"
+  },
+  {
+    "ts": "2026-08-18T20:23:17.042Z",
+    "script": "repost.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "quote_tweet",
+    "account": "tibo_maker"
+  },
+  {
+    "ts": "2026-08-18T20:23:19.315Z",
+    "script": "repost.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "quote_tweet",
+    "account": "levelsio"
+  },
+  {
+    "ts": "2026-08-18T20:23:26.292Z",
+    "script": "repost.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "quote_tweet",
+    "account": "dhh"
+  },
+  {
+    "ts": "2026-08-18T20:23:30.730Z",
+    "script": "repost.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "quote_tweet",
+    "account": "shl"
+  },
+  {
+    "ts": "2026-08-18T20:23:32.799Z",
+    "script": "repost.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "quote_tweet",
+    "account": "gregisenberg"
+  },
+  {
+    "ts": "2026-08-18T20:23:35.036Z",
+    "script": "repost.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "quote_tweet",
+    "account": "paulg"
   }
 ]
