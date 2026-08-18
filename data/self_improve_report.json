@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-08-17T04:32:48.921Z",
+  "updatedAt": "2026-08-18T04:22:37.430Z",
   "errorAnalysis": {
-    "totalRecent": 72,
+    "totalRecent": 79,
     "byScript": {
-      "thread.js": {
-        "count": 6,
-        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
+      "repost.js": {
+        "count": 29,
+        "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
       "engage.js": {
-        "count": 44,
-        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
+        "count": 47,
+        "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
-      "repost.js": {
-        "count": 22,
-        "lastError": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)"
+      "thread.js": {
+        "count": 3,
+        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
       }
     },
     "criticalScripts": [
       {
-        "script": "thread.js",
-        "count": 6,
-        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
+        "script": "repost.js",
+        "count": 29,
+        "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
       {
         "script": "engage.js",
-        "count": 44,
-        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
+        "count": 47,
+        "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
       {
-        "script": "repost.js",
-        "count": 22,
-        "lastError": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)"
+        "script": "thread.js",
+        "count": 3,
+        "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
       }
     ]
   },
@@ -47,14 +47,14 @@
   "growthAnalysis": {
     "currentFollowers": 5,
     "totalGain": 0,
-    "trackingDays": 62,
+    "trackingDays": 63,
     "dailyGrowthRate": 0,
     "isStagnant": false,
     "recentGain": -1
   },
   "keywordSuggestions": [],
   "overallRecommendations": [
-    "CRITICAL: Repeated errors in: thread.js (6x), engage.js (44x), repost.js (22x) — check errors.json"
+    "CRITICAL: Repeated errors in: repost.js (29x), engage.js (47x), thread.js (3x) — check errors.json"
   ],
   "dynamicConfigUpdated": true
 }
