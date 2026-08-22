@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-08-21T04:29:20.183Z",
+  "updatedAt": "2026-08-22T04:20:11.663Z",
   "errorAnalysis": {
-    "totalRecent": 108,
+    "totalRecent": 115,
     "byScript": {
-      "engage.js": {
-        "count": 65,
+      "repost.js": {
+        "count": 43,
         "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
-      "repost.js": {
-        "count": 40,
+      "engage.js": {
+        "count": 69,
         "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
       "thread.js": {
@@ -18,13 +18,13 @@
     },
     "criticalScripts": [
       {
-        "script": "engage.js",
-        "count": 65,
+        "script": "repost.js",
+        "count": 43,
         "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
       {
-        "script": "repost.js",
-        "count": 40,
+        "script": "engage.js",
+        "count": 69,
         "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
       {
@@ -47,15 +47,15 @@
   "growthAnalysis": {
     "currentFollowers": 5,
     "totalGain": 0,
-    "trackingDays": 66,
+    "trackingDays": 67,
     "dailyGrowthRate": 0,
     "isStagnant": true,
     "recentGain": 0
   },
   "keywordSuggestions": [],
   "overallRecommendations": [
-    "CRITICAL: Repeated errors in: engage.js (65x), repost.js (40x), thread.js (3x) — check errors.json",
-    "GROWTH STAGNANT: No new followers in 66 tracked days — increase engage.js frequency or adjust content mix"
+    "CRITICAL: Repeated errors in: repost.js (43x), engage.js (69x), thread.js (3x) — check errors.json",
+    "GROWTH STAGNANT: No new followers in 67 tracked days — increase engage.js frequency or adjust content mix"
   ],
   "dynamicConfigUpdated": true
 }
