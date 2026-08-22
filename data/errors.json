@@ -1,45 +1,5 @@
 [
   {
-    "ts": "2026-07-27T15:45:30.982Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 1,
-    "tweet": "1/ Most tech founders fail because they cant tell the difference between MARKET "
-  },
-  {
-    "ts": "2026-07-27T15:45:31.081Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 2,
-    "tweet": "2/ 90% of my drone tech sales come from cold emails sent to purchasing managers "
-  },
-  {
-    "ts": "2026-07-27T15:45:31.188Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 3,
-    "tweet": "3/ We built our own AI tools because OFF THE SHELF solutions were too expensive "
-  },
-  {
-    "ts": "2026-07-27T15:45:31.285Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 4,
-    "tweet": "4/ Our digital agency has a 6 month waitlist because we only take on clients who"
-  },
-  {
-    "ts": "2026-07-27T15:45:31.413Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 5,
-    "tweet": "5/ Can your business survive a 6 month drought in new customers what's your plan"
-  },
-  {
     "ts": "2026-07-27T15:46:44.736Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
@@ -2136,5 +2096,40 @@
     "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
     "phase": "reply",
     "account": "thejustinwelsh"
+  },
+  {
+    "ts": "2026-08-22T13:35:37.299Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "alexisohanian"
+  },
+  {
+    "ts": "2026-08-22T13:35:44.856Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "swyx"
+  },
+  {
+    "ts": "2026-08-22T13:35:52.412Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "naval"
+  },
+  {
+    "ts": "2026-08-22T13:35:59.844Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "jasonlk"
+  },
+  {
+    "ts": "2026-08-22T13:36:07.291Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "elonmusk"
   }
 ]
