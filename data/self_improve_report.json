@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-08-22T04:20:11.663Z",
+  "updatedAt": "2026-08-23T04:28:42.545Z",
   "errorAnalysis": {
-    "totalRecent": 115,
+    "totalRecent": 123,
     "byScript": {
-      "repost.js": {
-        "count": 43,
-        "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
-      },
-      "engage.js": {
-        "count": 69,
-        "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
-      },
       "thread.js": {
         "count": 3,
         "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
+      },
+      "engage.js": {
+        "count": 80,
+        "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
+      },
+      "repost.js": {
+        "count": 40,
+        "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       }
     },
     "criticalScripts": [
       {
-        "script": "repost.js",
-        "count": 43,
-        "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
-      },
-      {
-        "script": "engage.js",
-        "count": 69,
-        "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
-      },
-      {
         "script": "thread.js",
         "count": 3,
         "lastError": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)"
+      },
+      {
+        "script": "engage.js",
+        "count": 80,
+        "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
+      },
+      {
+        "script": "repost.js",
+        "count": 40,
+        "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       }
     ]
   },
@@ -47,15 +47,15 @@
   "growthAnalysis": {
     "currentFollowers": 5,
     "totalGain": 0,
-    "trackingDays": 67,
+    "trackingDays": 68,
     "dailyGrowthRate": 0,
     "isStagnant": true,
     "recentGain": 0
   },
   "keywordSuggestions": [],
   "overallRecommendations": [
-    "CRITICAL: Repeated errors in: repost.js (43x), engage.js (69x), thread.js (3x) — check errors.json",
-    "GROWTH STAGNANT: No new followers in 67 tracked days — increase engage.js frequency or adjust content mix"
+    "CRITICAL: Repeated errors in: thread.js (3x), engage.js (80x), repost.js (40x) — check errors.json",
+    "GROWTH STAGNANT: No new followers in 68 tracked days — increase engage.js frequency or adjust content mix"
   ],
   "dynamicConfigUpdated": true
 }
