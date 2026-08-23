@@ -1,29 +1,5 @@
 [
   {
-    "ts": "2026-07-29T15:10:32.544Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 1,
-    "tweet": "1/ MOST NEW TECH VENTURES fail because they dont understand PHYSICAL INFRASTRUCT"
-  },
-  {
-    "ts": "2026-07-29T15:10:32.686Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 2,
-    "tweet": "2/ Fiber optic cables arent enough BUILDING CELL TOWERS is a major undertaking"
-  },
-  {
-    "ts": "2026-07-29T15:10:32.829Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 3,
-    "tweet": "3/ LOCAL GOVERNMENTS often dictate tower placement and HEIGHT LIMITS"
-  },
-  {
     "ts": "2026-07-29T15:10:32.968Z",
     "script": "thread.js",
     "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
@@ -2127,5 +2103,26 @@
     "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
     "phase": "quote_tweet",
     "account": "dhh"
+  },
+  {
+    "ts": "2026-08-23T22:29:26.656Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "jasonlk"
+  },
+  {
+    "ts": "2026-08-23T22:29:36.159Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "robjama"
+  },
+  {
+    "ts": "2026-08-23T22:29:47.553Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "tibo_maker"
   }
 ]
