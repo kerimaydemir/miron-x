@@ -1,13 +1,5 @@
 [
   {
-    "ts": "2026-07-30T15:14:57.457Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 4,
-    "tweet": "4/ Real sales conversations happen on PHONE CALLS not chatbots"
-  },
-  {
     "ts": "2026-07-30T15:14:57.575Z",
     "script": "thread.js",
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
@@ -2120,5 +2112,12 @@
     "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
     "phase": "quote_tweet",
     "account": "levelsio"
+  },
+  {
+    "ts": "2026-08-24T22:34:20.212Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "Jason"
   }
 ]
