@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-25T04:26:21.912Z",
+  "updatedAt": "2026-08-26T04:31:12.519Z",
   "errorAnalysis": {
-    "totalRecent": 126,
+    "totalRecent": 122,
     "byScript": {
       "engage.js": {
-        "count": 80,
+        "count": 76,
         "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
       "repost.js": {
@@ -15,7 +15,7 @@
     "criticalScripts": [
       {
         "script": "engage.js",
-        "count": 80,
+        "count": 76,
         "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
       {
@@ -38,15 +38,15 @@
   "growthAnalysis": {
     "currentFollowers": 5,
     "totalGain": 0,
-    "trackingDays": 70,
+    "trackingDays": 71,
     "dailyGrowthRate": 0,
     "isStagnant": true,
     "recentGain": 0
   },
   "keywordSuggestions": [],
   "overallRecommendations": [
-    "CRITICAL: Repeated errors in: engage.js (80x), repost.js (46x) — check errors.json",
-    "GROWTH STAGNANT: No new followers in 70 tracked days — increase engage.js frequency or adjust content mix"
+    "CRITICAL: Repeated errors in: engage.js (76x), repost.js (46x) — check errors.json",
+    "GROWTH STAGNANT: No new followers in 71 tracked days — increase engage.js frequency or adjust content mix"
   ],
   "dynamicConfigUpdated": true
 }
