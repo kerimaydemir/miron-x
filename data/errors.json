@@ -1,41 +1,5 @@
 [
   {
-    "ts": "2026-08-02T20:55:30.386Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "quote_tweet",
-    "account": "elonmusk"
-  },
-  {
-    "ts": "2026-08-02T20:55:33.116Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "quote_tweet",
-    "account": "paulg"
-  },
-  {
-    "ts": "2026-08-02T23:01:08.782Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "paulg"
-  },
-  {
-    "ts": "2026-08-02T23:01:16.649Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "garrytan"
-  },
-  {
-    "ts": "2026-08-03T15:46:24.476Z",
-    "script": "thread.js",
-    "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
-    "phase": "send_tweet",
-    "tweetIndex": 1,
-    "tweet": "1/ MOST DRONE REGULATIONS are outdated because they were written by people who n"
-  },
-  {
     "ts": "2026-08-03T15:46:24.806Z",
     "script": "thread.js",
     "error": "Tweet not posted — response: {\"data\":{\"create_tweet\":{\"tweet_results\":{}}}}",
@@ -2118,5 +2082,40 @@
     "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
     "phase": "quote_tweet",
     "account": "paulg"
+  },
+  {
+    "ts": "2026-08-27T03:02:52.762Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "Jason"
+  },
+  {
+    "ts": "2026-08-27T03:03:00.181Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "garrytan"
+  },
+  {
+    "ts": "2026-08-27T03:03:07.431Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "fortelabs"
+  },
+  {
+    "ts": "2026-08-27T03:03:14.623Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "hnshah"
+  },
+  {
+    "ts": "2026-08-27T03:03:21.870Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "alexisohanian"
   }
 ]
