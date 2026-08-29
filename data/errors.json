@@ -1,43 +1,5 @@
 [
   {
-    "ts": "2026-08-07T01:31:54.894Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "elonmusk"
-  },
-  {
-    "ts": "2026-08-07T14:15:26.030Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "reply",
-    "account": "elonmusk"
-  },
-  {
-    "ts": "2026-08-08T13:49:23.503Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 1,
-    "tweet": "1/ MOST COMPANIES OVERLOOK PHYSICAL SECURITY OF THEIR DATA CENTERS"
-  },
-  {
-    "ts": "2026-08-08T13:49:23.618Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 2,
-    "tweet": "2/ 40% of data breaches occur due to UNAUTHORIZED PHYSICAL ACCESS"
-  },
-  {
-    "ts": "2026-08-08T13:49:23.749Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 3,
-    "tweet": "3/ BIOMETRIC AUTHENTICATION is still NOT WIDELY ADOPTED in most data centers"
-  },
-  {
     "ts": "2026-08-08T13:49:23.896Z",
     "script": "thread.js",
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
@@ -2113,5 +2075,40 @@
     "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
     "phase": "reply",
     "account": "elonmusk"
+  },
+  {
+    "ts": "2026-08-29T02:43:50.228Z",
+    "script": "repost.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "quote_tweet",
+    "account": "dhh"
+  },
+  {
+    "ts": "2026-08-29T02:43:52.434Z",
+    "script": "repost.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "quote_tweet",
+    "account": "tibo_maker"
+  },
+  {
+    "ts": "2026-08-29T02:43:55.125Z",
+    "script": "repost.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "quote_tweet",
+    "account": "garrytan"
+  },
+  {
+    "ts": "2026-08-29T02:43:59.762Z",
+    "script": "repost.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "quote_tweet",
+    "account": "elonmusk"
+  },
+  {
+    "ts": "2026-08-29T02:44:02.026Z",
+    "script": "repost.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "quote_tweet",
+    "account": "levelsio"
   }
 ]
