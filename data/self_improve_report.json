@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-08-29T10:31:01.180Z",
+  "updatedAt": "2026-08-30T09:34:32.285Z",
   "errorAnalysis": {
-    "totalRecent": 119,
+    "totalRecent": 111,
     "byScript": {
       "engage.js": {
-        "count": 75,
+        "count": 66,
         "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
       "repost.js": {
-        "count": 44,
+        "count": 45,
         "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       }
     },
     "criticalScripts": [
       {
         "script": "engage.js",
-        "count": 75,
+        "count": 66,
         "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
       {
         "script": "repost.js",
-        "count": 44,
+        "count": 45,
         "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       }
     ]
@@ -38,15 +38,15 @@
   "growthAnalysis": {
     "currentFollowers": 5,
     "totalGain": 0,
-    "trackingDays": 74,
+    "trackingDays": 75,
     "dailyGrowthRate": 0,
     "isStagnant": true,
     "recentGain": 0
   },
   "keywordSuggestions": [],
   "overallRecommendations": [
-    "CRITICAL: Repeated errors in: engage.js (75x), repost.js (44x) — check errors.json",
-    "GROWTH STAGNANT: No new followers in 74 tracked days — increase engage.js frequency or adjust content mix"
+    "CRITICAL: Repeated errors in: engage.js (66x), repost.js (45x) — check errors.json",
+    "GROWTH STAGNANT: No new followers in 75 tracked days — increase engage.js frequency or adjust content mix"
   ],
   "dynamicConfigUpdated": true
 }
