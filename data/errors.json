@@ -1,28 +1,5 @@
 [
   {
-    "ts": "2026-08-08T22:37:16.274Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: The original Tweet author restricted who can reply to this Tweet. (433)",
-    "phase": "reply",
-    "account": "Jason"
-  },
-  {
-    "ts": "2026-08-09T13:52:17.004Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 1,
-    "tweet": "1/ Autonomous systems will soon control 30% of global logistics"
-  },
-  {
-    "ts": "2026-08-09T13:52:17.094Z",
-    "script": "thread.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "send_tweet",
-    "tweetIndex": 2,
-    "tweet": "2/ Drone tech already reduces delivery times by 45% in rural areas"
-  },
-  {
     "ts": "2026-08-09T13:52:35.370Z",
     "script": "thread.js",
     "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
@@ -2108,5 +2085,26 @@
     "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
     "phase": "quote_tweet",
     "account": "gregisenberg"
+  },
+  {
+    "ts": "2026-08-30T00:04:07.748Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "gregisenberg"
+  },
+  {
+    "ts": "2026-08-30T00:04:14.970Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "alexisohanian"
+  },
+  {
+    "ts": "2026-08-30T00:04:26.113Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "robjama"
   }
 ]
