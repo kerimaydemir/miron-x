@@ -1,12 +1,5 @@
 [
   {
-    "ts": "2026-08-12T22:50:46.999Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "tibo_maker"
-  },
-  {
     "ts": "2026-08-12T22:50:54.528Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
@@ -2101,5 +2094,12 @@
     "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
     "phase": "reply",
     "account": "Jason"
+  },
+  {
+    "ts": "2026-08-31T21:40:34.184Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "amasad"
   }
 ]
