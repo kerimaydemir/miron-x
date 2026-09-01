@@ -1,40 +1,5 @@
 [
   {
-    "ts": "2026-08-13T20:42:30.608Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "quote_tweet",
-    "account": "tibo_maker"
-  },
-  {
-    "ts": "2026-08-13T20:42:33.188Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "quote_tweet",
-    "account": "gregisenberg"
-  },
-  {
-    "ts": "2026-08-13T20:42:35.957Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "quote_tweet",
-    "account": "levelsio"
-  },
-  {
-    "ts": "2026-08-13T20:42:40.809Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: You have reached your daily limit for sending Tweets and messages. Please try again later. (344)",
-    "phase": "quote_tweet",
-    "account": "shl"
-  },
-  {
-    "ts": "2026-08-13T22:52:14.592Z",
-    "script": "engage.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "reply",
-    "account": "hnshah"
-  },
-  {
     "ts": "2026-08-13T22:52:22.595Z",
     "script": "engage.js",
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
@@ -2101,5 +2066,40 @@
     "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
     "phase": "reply",
     "account": "sahilbloom"
+  },
+  {
+    "ts": "2026-09-01T17:15:32.342Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "sahilbloom"
+  },
+  {
+    "ts": "2026-09-01T17:15:39.873Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "pmarca"
+  },
+  {
+    "ts": "2026-09-01T17:15:49.576Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "jasonlk"
+  },
+  {
+    "ts": "2026-09-01T17:15:57.041Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "elonmusk"
+  },
+  {
+    "ts": "2026-09-01T17:16:04.458Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "paddycosgrave"
   }
 ]
