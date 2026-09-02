@@ -1,26 +1,5 @@
 [
   {
-    "ts": "2026-08-15T20:21:36.699Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "quote_tweet",
-    "account": "elonmusk"
-  },
-  {
-    "ts": "2026-08-15T20:21:39.324Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "quote_tweet",
-    "account": "naval"
-  },
-  {
-    "ts": "2026-08-15T20:21:41.786Z",
-    "script": "repost.js",
-    "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
-    "phase": "quote_tweet",
-    "account": "paulg"
-  },
-  {
     "ts": "2026-08-15T20:21:44.128Z",
     "script": "repost.js",
     "error": "CreateTweet error: Authorization: This request looks like it might be automated. To protect our users from spam and other malicious activity, we can't complete this action right now. Please try again later. (226)",
@@ -2101,5 +2080,26 @@
     "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
     "phase": "reply",
     "account": "paddycosgrave"
+  },
+  {
+    "ts": "2026-09-02T17:04:52.816Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "amasad"
+  },
+  {
+    "ts": "2026-09-02T17:05:00.042Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "fortelabs"
+  },
+  {
+    "ts": "2026-09-02T17:05:09.694Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "alexisohanian"
   }
 ]
