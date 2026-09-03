@@ -23,9 +23,8 @@
     "engage:reply": "ENGAGE_MODE=reply node src/engage.js"
   },
   "dependencies": {
-    "groq-sdk": "latest",
-    "rss-parser": "^3.13.0",
     "axios": "^1.6.0",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "rss-parser": "^3.13.0"
   }
 }

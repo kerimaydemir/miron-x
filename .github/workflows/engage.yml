@@ -28,9 +28,9 @@ jobs:
       - name: Run engagement
         env:
           XACTIONS_SESSION_COOKIE: ${{ secrets.XACTIONS_SESSION_COOKIE }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           TWITTER_HANDLE: kerimaydemirco
-          GROQ_MODEL: openai/gpt-oss-120b
+          NVIDIA_MODEL: qwen/qwen3.5-122b-a10b
           ENGAGE_MODE: ${{ github.event.inputs.mode || 'all' }}
           MAX_LIKES_PER_SESSION: "12"
           MAX_REPLIES_PER_SESSION: "3"

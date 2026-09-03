@@ -68,8 +68,8 @@ async function run() {
   } catch (e) { ko('Mentions', e); }
   await sleep(1000);
 
-  // ── 5. GROQ TWEET GENERATION ────────────────────────────────────────────
-  console.log('\n5. GROQ GENERATION');
+  // ── 5. NVIDIA QWEN TWEET GENERATION ─────────────────────────────────────
+  console.log('\n5. NVIDIA QWEN GENERATION');
   let genTweet = null, wolfTweet = null;
   try {
     const trends = await getTodaysTrends();

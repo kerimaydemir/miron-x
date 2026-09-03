@@ -1,10 +1,29 @@
-const Groq = require('groq-sdk');
+const axios = require('axios');
 const config = require('./config');
 const fs = require('fs');
 const path = require('path');
 
-const MODEL = process.env.GROQ_MODEL || 'openai/gpt-oss-120b';
-const groq  = new Groq({ apiKey: process.env.GROQ_API_KEY });
+const MODEL = process.env.NVIDIA_MODEL || 'qwen/qwen3.5-122b-a10b';
+const NVIDIA_ENDPOINT = 'https://integrate.api.nvidia.com/v1/chat/completions';
+
+async function createCompletion(options) {
+  const apiKey = process.env.NVIDIA_API_KEY;
+  if (!apiKey) throw new Error('NVIDIA_API_KEY is missing');
+  const { data } = await axios.post(NVIDIA_ENDPOINT, {
+    model: MODEL,
+    stream: false,
+    ...options,
+    chat_template_kwargs: { enable_thinking: false },
+  }, {
+    headers: {
+      authorization: `Bearer ${apiKey}`,
+      'content-type': 'application/json',
+      accept: 'application/json',
+    },
+    timeout: 60000,
+  });
+  return data;
+}
 
 // Data file paths
 const POSTED_PATH   = path.join(__dirname, '../data/posted.json');
@@ -263,8 +282,7 @@ async function generateTweet(trends, slotNumber) {
     : '';
 
   for (let attempt = 0; attempt < 4; attempt++) {
-    const res = await groq.chat.completions.create({
-      model:      MODEL,
+    const res = await createCompletion({
       max_tokens: 180,
       temperature: baseTemp + attempt * 0.04,
       messages: [
@@ -283,8 +301,7 @@ async function generateTweet(trends, slotNumber) {
 
   // Fallback
   const forcedTopic = config.TOPICS[Math.floor(Math.random() * config.TOPICS.length)];
-  const res = await groq.chat.completions.create({
-    model:      MODEL,
+  const res = await createCompletion({
     max_tokens: 180,
     temperature: 0.95,
     messages: [
@@ -319,8 +336,7 @@ async function generateWolfTweet() {
     ? `Target: ${dynCfg.optimalLengthRange[0]}–${Math.min(dynCfg.optimalLengthRange[1], 220)} chars.`
     : 'Max 220 chars.';
 
-  const res = await groq.chat.completions.create({
-    model:      MODEL,
+  const res = await createCompletion({
     max_tokens: 140,
     temperature: 0.92,
     messages: [
@@ -338,8 +354,7 @@ async function generateThread(trends) {
   const styleCtx = buildStyleContext(loadTopTweets());
   const ctx      = formatTrendContext(trends);
 
-  const res = await groq.chat.completions.create({
-    model:      MODEL,
+  const res = await createCompletion({
     max_tokens: 1400,
     temperature: 0.82,
     messages: [
@@ -367,8 +382,7 @@ async function generateThread(trends) {
 
 // ── generateReply ─────────────────────────────────────────────────────────────
 async function generateReply(tweetText, targetAccount) {
-  const res = await groq.chat.completions.create({
-    model:      MODEL,
+  const res = await createCompletion({
     max_tokens: 100,
     temperature: 0.92,
     messages: [
@@ -385,8 +399,7 @@ async function generateReply(tweetText, targetAccount) {
 
 // ── generateMentionReply ──────────────────────────────────────────────────────
 async function generateMentionReply(mentionText, fromUsername) {
-  const res = await groq.chat.completions.create({
-    model:      MODEL,
+  const res = await createCompletion({
     max_tokens: 120,
     temperature: 0.88,
     messages: [
@@ -403,8 +416,7 @@ async function generateMentionReply(mentionText, fromUsername) {
 
 // ── generateRepostComment ─────────────────────────────────────────────────────
 async function generateRepostComment(tweetText, authorHandle) {
-  const res = await groq.chat.completions.create({
-    model:      MODEL,
+  const res = await createCompletion({
     max_tokens: 100,
     temperature: 0.9,
     messages: [

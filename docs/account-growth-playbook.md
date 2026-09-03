@@ -121,7 +121,7 @@ Haftalık bakılacak metrikler:
 
 Bu sistem X web GraphQL + cookie ile çalışıyor. Resmi, uzun vadeli API kadar stabil değildir. Query ID değişirse veya cookie düşerse otomasyon kırılır.
 
-Groq tarafında geçmiş hata kayıtlarında `llama-3.3-70b-versatile` için erişim problemi görünür. Üretim modeli `openai/gpt-oss-120b` olarak güncellendi; canlı doğrulama için GitHub'daki `GROQ_API_KEY` ve `XACTIONS_SESSION_COOKIE` secret'larının güncel olması gerekir.
+Groq tarafında geçmiş hata kayıtlarında `llama-3.3-70b-versatile` için erişim problemi görünür. Üretim tarafı NVIDIA NIM üzerinden `qwen/qwen3.5-122b-a10b` modeline taşındı. Canlı doğrulama için GitHub'daki `NVIDIA_API_KEY` ve `XACTIONS_SESSION_COOKIE` secret'larının güncel olması gerekir.
 
 ## Canlı Temizlik Akışı
 
