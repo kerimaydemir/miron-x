@@ -250,33 +250,66 @@ class XClient {
   // ─── USER TIMELINE — GraphQL UserTweets ──────────────────────────────────
   async *getTweets(username, limit = 10) {
     const userId = await this._getUserId(username);
-    const data = await this._gqlGet(QID.UserTweets, 'UserTweets', {
-      userId,
-      count: Math.min(limit, 20),
-      includePromotedContent: false,
-      withQuickPromoteEligibilityTweetFields: true,
-      withVoice: true,
-      withV2Timeline: true,
-    }, GQL_TWEET_FEATURES);
+    let cursor = null;
+    let yielded = 0;
+    const seen = new Set();
 
-    if (!data) return;
-    const instructions = data?.data?.user?.result?.timeline_v2?.timeline?.instructions || [];
-    for (const inst of instructions) {
-      for (const entry of (inst.entries || [])) {
-        const tweetResult = entry?.content?.itemContent?.tweet_results?.result;
-        const legacy = tweetResult?.legacy || tweetResult?.tweet?.legacy;
-        if (!legacy?.full_text) continue;
-        if (legacy.retweeted_status_id_str) continue; // skip retweets
-        yield {
-          id: legacy.id_str || tweetResult?.rest_id,
-          text: legacy.full_text || '',
-          likeCount: legacy.favorite_count || 0,
-          retweetCount: legacy.retweet_count || 0,
-          replyCount: legacy.reply_count || 0,
-          timeParsed: new Date(legacy.created_at),
-        };
+    while (yielded < limit) {
+      const variables = {
+        userId,
+        count: Math.min(limit - yielded, 20),
+        includePromotedContent: false,
+        withQuickPromoteEligibilityTweetFields: true,
+        withVoice: true,
+        withV2Timeline: true,
+      };
+      if (cursor) variables.cursor = cursor;
+      const data = await this._gqlGet(QID.UserTweets, 'UserTweets', variables, GQL_TWEET_FEATURES);
+      if (!data) return;
+
+      const instructions = data?.data?.user?.result?.timeline_v2?.timeline?.instructions || [];
+      let nextCursor = null;
+      for (const inst of instructions) {
+        for (const entry of (inst.entries || [])) {
+          const tweetResult = entry?.content?.itemContent?.tweet_results?.result;
+          const legacy = tweetResult?.legacy || tweetResult?.tweet?.legacy;
+          if (legacy?.full_text && !legacy.retweeted_status_id_str) {
+            const id = legacy.id_str || tweetResult?.rest_id;
+            if (!id || seen.has(id)) continue;
+            seen.add(id);
+            yielded++;
+            yield {
+              id,
+              text: legacy.full_text || '',
+              likeCount: legacy.favorite_count || 0,
+              retweetCount: legacy.retweet_count || 0,
+              replyCount: legacy.reply_count || 0,
+              timeParsed: new Date(legacy.created_at),
+            };
+            if (yielded >= limit) return;
+          }
+
+          if (entry?.entryId?.includes('cursor-bottom')) {
+            nextCursor = entry?.content?.value || nextCursor;
+          }
+        }
       }
+      if (!nextCursor || nextCursor === cursor) return;
+      cursor = nextCursor;
     }
+  }
+
+  // ─── DELETE — own tweets only; caller must provide a reviewed ID list ────
+  async deleteTweet(tweetId) {
+    const id = String(tweetId || '');
+    if (!/^\d+$/.test(id)) throw new Error('deleteTweet requires a numeric tweet id');
+    const res = await fetch(`https://api.twitter.com/1.1/statuses/destroy/${id}.json`, {
+      method: 'POST',
+      headers: this._headers(),
+    });
+    const text = await res.text();
+    if (!res.ok) throw new Error(`Delete tweet ${id} failed ${res.status}: ${text.substring(0, 300)}`);
+    return text ? JSON.parse(text) : { id };
   }
 
   // ─── SINGLE TWEET LOOKUP — GraphQL first, v1.1 fallback ─────────────────

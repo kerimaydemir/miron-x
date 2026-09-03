@@ -1,23 +1,14 @@
 {
   "typeMultipliers": {
     "general": 1,
+    "global": 1,
     "sv": 1,
     "london": 1,
     "wolf": 1,
     "thread": 1
   },
-  "topKeywords": [
-    "AI",
-    "LLM",
-    "founder",
-    "startup",
-    "VC",
-    "bootstrap"
-  ],
-  "optimalLengthRange": [
-    62,
-    94
-  ],
+  "topKeywords": [],
+  "optimalLengthRange": null,
   "questionEndingBoost": 1,
-  "updatedAt": "2026-09-03T08:23:35.918Z"
+  "updatedAt": "2026-09-03T22:29:47.012Z"
 }

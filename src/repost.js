@@ -7,6 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 const LOG_PATH = path.join(__dirname, '../data/engaged.json');
+const POLITICAL_OR_HOSTILE = /\b(devlet|hükümet|cumhurbaşkanı|bakan|belediye|parti|iktidar|muhalefet|siktir|göt|got|amk)\b/i;
 
 function loadLog() {
   try { return JSON.parse(fs.readFileSync(LOG_PATH, 'utf8')); }
@@ -31,42 +32,43 @@ async function collectAsync(gen, limit) {
 }
 
 async function main() {
-  console.log('▶ repost.js — Quote-tweet from key accounts');
+  console.log('▶ repost.js — Quote-tweet a Turkish founder conversation');
 
   const x = new XClient(process.env.XACTIONS_SESSION_COOKIE);
   const log = loadLog();
   if (!log.reposts) log.reposts = [];
 
-  const accounts = [...config.REPOST_ACCOUNTS].sort(() => Math.random() - 0.5);
+  const keywords = [...config.SEARCH_KEYWORDS].sort(() => Math.random() - 0.5).slice(0, 3);
   let done = false;
 
-  for (const account of accounts) {
+  for (const keyword of keywords) {
     if (done) break;
     try {
-      console.log(`  Checking @${account}...`);
-      const tweets = await collectAsync(x.getTweets(account, 8), 8);
+      console.log(`  Looking for: ${keyword}`);
+      const tweets = await collectAsync(x.searchTweets(keyword, 30), 30);
       await sleep(1500);
 
       for (const tweet of tweets) {
         if (log.reposts.includes(tweet.id)) continue;
         const hoursOld = (Date.now() - new Date(tweet.timeParsed).getTime()) / 3600000;
-        if (hoursOld > 24) continue;
-        if (tweet.text.startsWith('RT ')) continue;
+        if (hoursOld > 24 || hoursOld < 0.1) continue;
+        if (!tweet.username || tweet.text.startsWith('RT ')) continue;
         if (tweet.text.length < 40) continue;
+        if (POLITICAL_OR_HOSTILE.test(tweet.text)) continue;
 
-        const comment = await generateRepostComment(tweet.text, account);
+        const comment = await generateRepostComment(tweet.text, tweet.username);
         if (!comment || comment.length < 10) continue;
 
         const trimmedComment = comment.length > 270 ? comment.substring(0, 270) : comment;
         await x.sendTweet(trimmedComment, { quoteTweetId: tweet.id });
 
         log.reposts.push(tweet.id);
-        console.log(`  ✅ Quote-tweeted @${account}: ${comment.substring(0, 60)}`);
+        console.log(`  ✅ Quote-tweeted @${tweet.username}: ${comment.substring(0, 60)}`);
         done = true;
         break;
       }
     } catch (e) {
-      logError('repost.js', e, { phase: 'quote_tweet', account });
+      logError('repost.js', e, { phase: 'quote_tweet_discovery', keyword });
     }
   }
 

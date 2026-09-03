@@ -22,7 +22,7 @@ jobs:
           XACTIONS_SESSION_COOKIE: ${{ secrets.XACTIONS_SESSION_COOKIE }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           TWITTER_HANDLE: kerimaydemirco
-          GROQ_MODEL: llama-3.3-70b-versatile
+          GROQ_MODEL: openai/gpt-oss-120b
         run: node src/repost.js
 
       - run: |

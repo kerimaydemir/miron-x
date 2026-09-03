@@ -15,7 +15,7 @@ const POSTED_PATH   = path.join(__dirname, '../data/posted.json');
 const TOP_TYPE_PATH = path.join(__dirname, '../data/top_tweets_by_type.json');
 const BRAIN_PATH    = path.join(__dirname, '../data/brain_report.json');
 const MIN_DATA      = parseInt(process.env.MIN_DATA_POINTS || '8');
-const TYPES         = ['general', 'sv', 'london', 'wolf', 'thread'];
+const TYPES         = ['general', 'global', 'sv', 'london', 'wolf', 'thread'];
 
 function load(p, fallback) {
   try { return JSON.parse(fs.readFileSync(p, 'utf8')); }
@@ -184,6 +184,23 @@ async function main() {
   }));
 
   const withEngagement = scored.filter(t => t.id && (t.score || 0) > 0);
+
+  if (withEngagement.length < MIN_DATA) {
+    const placeholder = {
+      updatedAt:       new Date().toISOString(),
+      status:          'insufficient_engagement',
+      totalTweets:     posted.length,
+      tweetsWithEngagement: withEngagement.length,
+      minRequired:     MIN_DATA,
+      typeMultipliers: Object.fromEntries(TYPES.map(t => [t, 1.0])),
+      topKeywords:     [],
+      formatInsights:  null,
+      recommendations: ['No reliable engagement signal yet — keep strategy manual until real likes/replies/retweets appear'],
+    };
+    saveJSON(BRAIN_PATH, placeholder);
+    console.log(`Not enough engagement (${withEngagement.length} < ${MIN_DATA}) — placeholder saved`);
+    return;
+  }
 
   const typePerf    = computeTypePerformance(scored);
   const multipliers = computeTypeMultipliers(typePerf);

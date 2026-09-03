@@ -15,7 +15,7 @@ const TOP_PATH      = path.join(__dirname, '../data/top_tweets.json');
 const TOP_TYPE_PATH = path.join(__dirname, '../data/top_tweets_by_type.json');
 const HANDLE        = process.env.TWITTER_HANDLE || 'kerimaydemirco';
 const TOP_N         = parseInt(process.env.ANALYTICS_TOP_N || '15');
-const TYPES         = ['general', 'sv', 'london', 'wolf', 'thread'];
+const TYPES         = ['general', 'global', 'sv', 'london', 'wolf', 'thread'];
 
 function loadPosted() {
   try { return JSON.parse(fs.readFileSync(POSTED_PATH, 'utf8')); }

@@ -11,6 +11,7 @@ const LOG_PATH = path.join(__dirname, '../data/engaged.json');
 const MAX_LIKES   = parseInt(process.env.MAX_LIKES_PER_SESSION   || '12');
 const MAX_REPLIES = parseInt(process.env.MAX_REPLIES_PER_SESSION || '3');
 const MAX_FOLLOWS = parseInt(process.env.MAX_FOLLOWS_PER_DAY     || '1');
+const POLITICAL_OR_HOSTILE = /\b(devlet|hükümet|cumhurbaşkanı|bakan|belediye|parti|iktidar|muhalefet|siktir|göt|got|amk)\b/i;
 
 function loadLog() {
   try { return JSON.parse(fs.readFileSync(LOG_PATH, 'utf8')); }
@@ -84,36 +85,39 @@ async function main() {
   // ─── REPLY ────────────────────────────────────────────────────────────────
   if (mode === 'all' || mode === 'reply') {
     console.log('Reply rutini...');
-    const targets = [...config.TARGET_ACCOUNTS].sort(() => Math.random() - 0.5).slice(0, 6);
+    const keywords = [...config.SEARCH_KEYWORDS].sort(() => Math.random() - 0.5).slice(0, 3);
     let replied = 0;
 
-    for (const account of targets) {
+    for (const keyword of keywords) {
       if (replied >= MAX_REPLIES) break;
       try {
-        const tweets = await collectAsync(x.getTweets(account, 5), 5);
+        const tweets = await collectAsync(x.searchTweets(keyword, 30), 30);
         await sleep(1500);
         const recent = tweets.find(t => {
           const hoursOld = (Date.now() - new Date(t.timeParsed).getTime()) / 3600000;
-          return hoursOld < 36 && !done(t.id, 'replies', log);
+          return hoursOld < 30
+            && hoursOld > 0.1
+            && !done(t.id, 'replies', log)
+            && t.username
+            && (t.text || '').length >= 40
+            && !POLITICAL_OR_HOSTILE.test(t.text || '');
         });
-        if (!recent) { console.log(`  ↩ @${account}: no recent tweet`); continue; }
+        if (!recent) { console.log(`  ↩ ${keyword}: no suitable founder conversation`); continue; }
 
-        const reply = await generateReply(recent.text || '', account);
-        if (!reply) { console.log(`  ↩ @${account}: SKIP`); log.replies.push(String(recent.id)); continue; }
+        const reply = await generateReply(recent.text || '', recent.username);
+        if (!reply) { console.log(`  ↩ @${recent.username}: SKIP`); log.replies.push(String(recent.id)); continue; }
 
         await x.sendTweet(reply, { replyTo: recent.id });
         log.replies.push(String(recent.id));
         replied++;
-        console.log(`  ✅ @${account}: ${reply.substring(0, 60)}`);
+        console.log(`  ✅ @${recent.username}: ${reply.substring(0, 60)}`);
         await sleep(10000);
       } catch (e) {
-        if (e.userUnavailable) {
-          console.log(`  ↩ @${account}: account unavailable — skipping`);
-        } else if (e.message?.includes('Tweet not posted')) {
+        if (e.message?.includes('Tweet not posted')) {
           // Silent Twitter filter — mark as attempted, don't spam errors.json
-          console.log(`  ↩ @${account}: tweet silently blocked (rate-limit/filter)`);
+          console.log(`  ↩ ${keyword}: tweet silently blocked (rate-limit/filter)`);
         } else {
-          logError('engage.js', e, { phase: 'reply', account });
+          logError('engage.js', e, { phase: 'reply_discovery', keyword });
         }
         // Always sleep after any failure to avoid hammering when rate-limited
         await sleep(5000);

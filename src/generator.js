@@ -3,7 +3,7 @@ const config = require('./config');
 const fs = require('fs');
 const path = require('path');
 
-const MODEL = process.env.GROQ_MODEL || 'llama-3.3-70b-versatile';
+const MODEL = process.env.GROQ_MODEL || 'openai/gpt-oss-120b';
 const groq  = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 // Data file paths
@@ -12,6 +12,19 @@ const TOP_PATH      = path.join(__dirname, '../data/top_tweets.json');
 const TOP_TYPE_PATH = path.join(__dirname, '../data/top_tweets_by_type.json');
 const BRAIN_PATH    = path.join(__dirname, '../data/brain_report.json');
 const DYN_CFG_PATH  = path.join(__dirname, '../data/dynamic_config.json');
+
+const GLOBAL_MAJOR_KEYWORDS = [
+  'openai', 'anthropic', 'google', 'deepmind', 'meta', 'microsoft', 'nvidia',
+  'apple', 'tesla', 'xai', 'y combinator', 'yc', 'ai', 'gpt', 'claude',
+  'llama', 'funding', 'ipo', 'acquisition', 'regulation', 'agent',
+];
+
+const BLOCKED_OUTPUT_PATTERNS = [
+  /\b(devlet|hükümet|cumhurbaşkanı|bakan|belediye|parti|iktidar|muhalefet)\b/i,
+  /\b(aptal|salak|rezil|hain|çöp|dolandırıcı|yalancı|beceriksiz)\b/i,
+  /\b(elon|musk)\b/i,
+  /\b(siktir|göt|got|orospu|ibne|piç|pic|tehdit|öldür|oldur)\b/i,
+];
 
 const SYSTEM = `You are writing content AS ${config.PERSONA.name}.
 
@@ -23,33 +36,22 @@ RULES:
 ${config.TWEET_RULES}`;
 
 const WOLF_SYSTEM = `You are writing content AS ${config.PERSONA.name}.
-His X bio says "the wolf". Banner is a wolf among sheep. This is identity, not costume.
+This is a legacy single-post mode. The new account direction is Turkish founder support, not aggressive identity posting.
 
 RAW VOICE:
-Masculine, warrior energy. Not motivational poster, not hustle bro.
-The words of a man who's been through real fire. Quiet strength, not loud noise.
-Embracing chaos. Enduring pain without complaint. Moving alone. Staying dangerous.
-Short sharp sentences. Hits like a fist.
-Never preachy. Never "you should". Speaks from lived truth.
-NO quotes around the text. Return raw text only.
-English only. Max 220 chars. No hashtags.
+Turkish, grounded, disciplined, practical.
+Short and memorable without sounding like a motivational poster or a character act.
+Helpful to entrepreneurs in Turkey.
+No politics. No insults. No personal attacks. No hashtags. No emojis.
+Use English-keyboard Turkish most of the time. Do not overuse punctuation.
+Max 220 chars.
 
 THEMES:
-- The wolf doesn't explain himself to the flock
-- Chaos is the arena, not the threat
-- Pain as a teacher
-- Solitude and focus as weapons
-- Building in silence, results do the talking
-- Men who endure vs men who fold
-
-GOOD:
-Most people run from chaos. I learned to move inside it. That's where the real game is played.
-Pain doesn't stop you. The story you tell about pain stops you.
-Every hard thing you didn't quit made you something. Most people never find out what.
-
-BAD (never):
-Rise and grind 💪 #Motivation
-Be a wolf not a sheep 🐺🔥🔥🔥`;
+- Discipline when nobody is watching
+- Building before talking
+- Surviving uncertainty as a founder
+- Focus, patience, and execution
+- Making Turkish builders feel less alone`;
 
 // ── Data loaders ─────────────────────────────────────────────────────────────
 function loadJSON(p, fallback) {
@@ -79,12 +81,13 @@ function buildDedupContext(recent) {
   const summaries = recent
     .map(t => t.text.replace(/^"/, '').replace(/"$/, '').substring(0, 80))
     .join('\n- ');
-  return `\nAVOID repeating these recent topics/angles:\n- ${summaries}\n\nWrite something COMPLETELY different in topic AND framing.`;
+  return `\nAVOID repeating these recent topics/angles:\n- ${summaries}\n\nWrite something different in topic, framing, rhythm, and opening line.`;
 }
 
 function buildStyleContext(tweets) {
-  if (!tweets.length) return '';
-  const examples = tweets
+  const proven = tweets.filter(t => (t.score || t.likes || 0) > 0);
+  if (!proven.length) return '';
+  const examples = proven
     .map(t => `[${t.score || t.likes || 0}pts] ${t.text.substring(0, 100)}`)
     .join('\n');
   return `\nHIGH-PERFORMING TWEETS — study their structure, tone, hook style:\n${examples}\n\nMatch this energy. Different topic, same sharpness.`;
@@ -92,8 +95,9 @@ function buildStyleContext(tweets) {
 
 function buildStyleContextForType(type) {
   const typeTweets = loadTopTweetsByType(type);
-  if (typeTweets.length >= 2) {
-    const examples = typeTweets
+  const proven = typeTweets.filter(t => (t.score || t.likes || 0) > 0);
+  if (proven.length >= 2) {
+    const examples = proven
       .map(t => `[${t.score}pts] ${t.text.substring(0, 100)}`)
       .join('\n');
     return `\nTOP ${type.toUpperCase()} TWEETS — match this exact energy:\n${examples}\n\nDifferent topic, same punch.`;
@@ -121,13 +125,32 @@ function addHumanTouch(text) {
   }
   text = text.replace(/([.!?])["""'']+$/, '$1');
   text = text.replace(/  +/g, ' ').trim();
-  const roll = Math.random();
-  if (roll < 0.15 && text.endsWith('.')) text = text.slice(0, -1);
-  else if (roll < 0.25 && text.includes(',')) {
-    const idx = text.indexOf(',');
-    text = text.slice(0, idx) + text.slice(idx + 1);
+  return applyKeyboardStyle(text);
+}
+
+function applyKeyboardStyle(text) {
+  const preserveTurkish = process.env.QUOTE_MODE === 'true' || Math.random() < 0.2;
+  if (!preserveTurkish) {
+    text = text
+      .replaceAll('ç', 'c').replaceAll('Ç', 'C')
+      .replaceAll('ğ', 'g').replaceAll('Ğ', 'G')
+      .replaceAll('ı', 'i').replaceAll('İ', 'I')
+      .replaceAll('ö', 'o').replaceAll('Ö', 'O')
+      .replaceAll('ş', 's').replaceAll('Ş', 'S')
+      .replaceAll('ü', 'u').replaceAll('Ü', 'U');
   }
-  return text;
+
+  if (process.env.QUOTE_MODE !== 'true') {
+    const marks = text.match(/[.!?,;:]/g) || [];
+    if (marks.length > 1) {
+      let kept = false;
+      text = text.replace(/[.!?,;:]/g, mark => {
+        if (!kept) { kept = true; return mark; }
+        return '';
+      });
+    }
+  }
+  return text.replace(/\s{2,}/g, ' ').trim();
 }
 
 // ── Format trend context ──────────────────────────────────────────────────────
@@ -138,35 +161,47 @@ function formatTrendContext(trends) {
   ].join('\n');
 }
 
+function hasMajorGlobalSignal(trends) {
+  const stories = [
+    ...((trends?.hackerNews || []).map(s => ({ title: s.title || '', score: s.score || 0 }))),
+    ...((trends?.rssNews || []).map(n => ({ title: n.title || '', score: 60 }))),
+  ];
+  return stories.some(story => {
+    const title = story.title.toLowerCase();
+    const hasKeyword = GLOBAL_MAJOR_KEYWORDS.some(kw => title.includes(kw));
+    const hasEventVerb = /\b(launch|release|raises|acquires|sues|bans|regulation|gpt|claude|agent|model)\b/i.test(title);
+    return hasKeyword && (story.score >= 120 || hasEventVerb);
+  });
+}
+
+function isProbablyTurkish(text) {
+  const lower = ` ${text.toLowerCase()} `;
+  const trHints = [' bir ', ' ve ', ' için ', ' degil', ' değil', ' girisim', ' girişim', ' musteri', ' müşteri', ' urun', ' ürün', ' yapay', ' zeka', ' satis', ' satış', ' kurucu'];
+  return /[çğıöşüİ]/.test(text) || trHints.some(h => lower.includes(h));
+}
+
+function passesSafety(text, { allowEnglish = false, allowEdgy = false } = {}) {
+  if (!text || text.includes('SKIP_GLOBAL')) return true;
+  if (BLOCKED_OUTPUT_PATTERNS.some(pattern => pattern.test(text))) return false;
+  if (!allowEdgy && /\bamk\b/i.test(text)) return false;
+  if (!allowEnglish && !isProbablyTurkish(text)) return false;
+  if (/\p{Extended_Pictographic}/u.test(text)) return false;
+  if (/#\w+/.test(text)) return false;
+  return text.length <= 275;
+}
+
 // ── Topic pools ───────────────────────────────────────────────────────────────
 const SV_TOPICS = [
-  'Y Combinator: what the public playbook gets wrong vs. what actually works',
-  'OpenAI vs Anthropic vs Google — who is actually winning the real AI race',
-  'Sam Altman / Elon / Zuckerberg — reading the Silicon Valley power moves',
-  'AI companies raising at insane valuations — what this actually signals',
-  'The early SV founder nobody writes about: pre-revenue, post-savings, still building',
-  'What YC rejections have in common — and what the accepted ones missed',
-  'Distribution is the thing most SV early-stage founders underestimate until month 8',
-  'The gap between YC advice and what the first 6 months of building actually looks like',
-  "Bootstrapped in SF: the founder who doesn't raise and why that's harder than it sounds",
-  'Cold outreach in SV: what works, what burns bridges, what founders get wrong',
-  'Build in public with 40 followers — what it actually takes vs. the myth',
-  'Pre-seed to seed: the jump that breaks most first-time SV founders',
+  'Global AI/startup news and what it means for Turkish builders',
+  'OpenAI, Anthropic, Google, Meta, Nvidia: product strategy, not personality drama',
+  'Major funding, IPO, acquisition, or model launch and the practical founder lesson',
+  'Distribution, product velocity, and AI workflow lessons from global startups',
 ];
 
 const LONDON_TOPICS = [
-  'London startup scene vs. Silicon Valley — why the comparison is both wrong and right',
-  'Wise, Monzo, Revolut: what the London fintech playbook actually looks like',
-  "UK AI scene right now — who's doing real work vs. riding the hype",
-  "Building in London: the advantages nobody in SV talks about (talent, timezone, regulation)",
-  "UK pre-seed landscape — what's actually fundable right now vs. 2 years ago",
-  'The London indie founder: smaller market, sharper product, longer game',
-  "UK founders raising from US VCs — the things they don't tell you going in",
-  'European founder mindset vs. US: different constraints, different strengths',
-  "What bootstrapping looks like in London when you can't afford to move to SF",
-  'The honest struggles of early-stage UK startups: distribution, sales, finding customers',
-  "London's quiet builder community — the people shipping real products without the noise",
-  'UK founder communities worth being part of — and what they actually do for you',
+  'European startup lessons for Turkish founders',
+  'Fintech, AI, and B2B SaaS lessons that can translate to Turkey',
+  'Bootstrapping and distribution lessons outside Silicon Valley',
 ];
 
 // ── Length hint from brain/dynamic config ─────────────────────────────────────
@@ -186,7 +221,13 @@ async function generateTweet(trends, slotNumber) {
 
   const isSV     = process.env.SV_MODE     === 'true';
   const isLondon = process.env.LONDON_MODE === 'true';
-  const type     = isLondon ? 'london' : isSV ? 'sv' : 'general';
+  const isGlobal = process.env.GLOBAL_MODE === 'true';
+  const isDirect = process.env.DIRECT_MODE === 'true';
+  const type     = isGlobal ? 'global' : isLondon ? 'london' : isSV ? 'sv' : 'general';
+
+  if (isGlobal && !hasMajorGlobalSignal(trends)) {
+    return 'SKIP_GLOBAL';
+  }
 
   // Per-type style examples (learns from own top performers)
   const styleCtx = buildStyleContextForType(type);
@@ -212,9 +253,13 @@ async function generateTweet(trends, slotNumber) {
     : '';
 
   const focus = isSV
-    ? ' (Silicon Valley focus — speak TO SV founders, pre-seed builders, indie hackers)'
+    ? ' (Global tech lens — write for Turkish builders unless GLOBAL_MODE is true)'
     : isLondon
-    ? ' (London focus — speak TO UK/London startup founders, early-stage builders)'
+    ? ' (European startup lens — write for Turkish builders)'
+    : isGlobal
+    ? ' (Global mode — write in English only because this is major global tech/startup news. Explain what it means for builders.)'
+    : isDirect
+    ? ' (Direct mode — firm, energetic Turkish founder voice. Push toward a real action, never toward attacking a person or group.)'
     : '';
 
   for (let attempt = 0; attempt < 4; attempt++) {
@@ -226,12 +271,13 @@ async function generateTweet(trends, slotNumber) {
         { role: 'system', content: SYSTEM },
         {
           role: 'user',
-          content: `Today's trending:\n${ctx}\n\nPossible topic areas:\n- ${topicList}\n${styleCtx}${kwHint}${dedupCtx}\n\nSlot #${slotNumber}${focus}. Pick ONE angle. Write Kerim's take — sharp opinion, not a summary. Speak TO founders, not about them.\n${lengthHint}\nReturn ONLY the raw tweet text. No quotes, no emojis.`,
+          content: `Today's trending:\n${ctx}\n\nPossible topic areas:\n- ${topicList}\n${styleCtx}${kwHint}${dedupCtx}\n\nSlot #${slotNumber}${focus}. Pick ONE angle.\nDefault task: write in Turkish for Turkish entrepreneurs. Be useful, practical, specific, and human. For everyday posts use English-keyboard Turkish and zero or one punctuation mark. Keep correct Turkish characters only when a saying or careful line earns them. Do not attack the state, politicians, public institutions, named people, companies, or groups. Do not mention Elon/Musk negatively. Vary the hook style from recent tweets.\n${isDirect ? 'Direct mode may use one non-targeted "amk" at most, but only if it feels natural. Never use siktir, sexual insults, slurs, threats, or insults aimed at anyone.\n' : ''}If GLOBAL_MODE is active, write in English only if the news is genuinely major; otherwise return SKIP_GLOBAL.\n${lengthHint}\nReturn ONLY the raw tweet text. No quotes, no emojis.`,
         },
       ],
     });
     const candidate = addHumanTouch(res.choices[0].message.content.trim());
-    if (!isTooSimilar(candidate, recent)) return candidate;
+    if (candidate === 'SKIP_GLOBAL') return candidate;
+    if (passesSafety(candidate, { allowEnglish: isGlobal, allowEdgy: isDirect }) && !isTooSimilar(candidate, recent)) return candidate;
     console.log(`  Attempt ${attempt + 1}: too similar, retrying...`);
   }
 
@@ -243,23 +289,26 @@ async function generateTweet(trends, slotNumber) {
     temperature: 0.95,
     messages: [
       { role: 'system', content: SYSTEM },
-      { role: 'user', content: `Write a tweet about: ${forcedTopic}\nReturn ONLY the raw tweet text. No quotes.` },
+      { role: 'user', content: `Write a Turkish tweet for Turkish entrepreneurs about: ${forcedTopic}\nHelpful, specific, English-keyboard Turkish, little or no punctuation, no politics, no named-person or group attacks. Return ONLY the raw tweet text. No quotes.` },
     ],
   });
-  return addHumanTouch(res.choices[0].message.content.trim());
+  const fallback = addHumanTouch(res.choices[0].message.content.trim());
+  return passesSafety(fallback, { allowEnglish: false, allowEdgy: isDirect })
+    ? fallback
+    : 'Girişimcilikte en pahalı hata ürünü geç çıkarmak değil. Yanlış müşteriye fazla uzun süre inanmaktır.';
 }
 
 // ── generateWolfTweet — uses wolf-type top performers ────────────────────────
 async function generateWolfTweet() {
   const prompts = [
-    'Raw tweet: embracing chaos as the arena, not the threat. Warrior energy.',
-    "Raw tweet: enduring pain without complaint. The wolf keeps moving.",
-    "Raw tweet: operating alone — not needing the flock's approval.",
-    'Raw tweet: men who sharpen under pressure vs men who fold under it.',
-    'Raw tweet: doing the work in the dark, no audience, just the grind.',
-    'Raw tweet: staying dangerous when life tries to domesticate you.',
-    'Raw tweet: the discipline of silence — building while others talk.',
-    'Raw tweet: what chaos actually feels like from the inside of it.',
+    'Türkçe tweet: kimse izlemiyorken de işi yapmak.',
+    'Türkçe tweet: girişimcinin belirsizlik içinde sakin kalması.',
+    'Türkçe tweet: konuşmadan önce ürün, müşteri ve satış üretmek.',
+    'Türkçe tweet: yalnız çalışan kurucunun odağını koruması.',
+    'Türkçe tweet: zor dönemde disiplini kaybetmemek.',
+    'Türkçe tweet: sonuç gelmeden önce sabırla sistem kurmak.',
+    'Türkçe tweet: Türk girişimcilerin birbirini daha çok desteklemesi.',
+    'Türkçe tweet: küçük ama düzenli ilerlemenin değeri.',
   ];
   const prompt = prompts[Math.floor(Math.random() * prompts.length)];
 
@@ -297,7 +346,7 @@ async function generateThread(trends) {
       { role: 'system', content: SYSTEM },
       {
         role: 'user',
-        content: `Today's trending:\n${ctx}\n${styleCtx}${dedupCtx}\n\nWrite a 5-tweet morning thread.\n\n- Tweet 1: Hook. Strong claim. Standalone.\n- Tweets 2-4: One concrete point each. Specific.\n- Tweet 5: The payoff. Drives replies.\n- Number: "1/" ... "5/"\n- Each max 265 chars\n- No quotes around the tweets\n- English only\n\nReturn ONLY a JSON array: ["tweet1","tweet2","tweet3","tweet4","tweet5"]`,
+          content: `Today's trending:\n${ctx}\n${styleCtx}${dedupCtx}\n\nWrite a 5-tweet Turkish thread for Turkish entrepreneurs.\n\n- Tweet 1: Useful hook. Strong but respectful.\n- Tweets 2-4: One practical point each.\n- Tweet 5: Ask a real question that invites founders to reply.\n- Number: "1/" ... "5/"\n- Each max 265 chars\n- No quotes around the tweets\n- No politics, no insults, no named-person attacks\n\nReturn ONLY a JSON array: ["tweet1","tweet2","tweet3","tweet4","tweet5"]`,
       },
     ],
   });
@@ -326,12 +375,12 @@ async function generateReply(tweetText, targetAccount) {
       { role: 'system', content: SYSTEM },
       {
         role: 'user',
-        content: `@${targetAccount} tweeted:\n"${tweetText}"\n\nWrite a SHORT reply (max 110 chars):\n- Genuine angle or pushback\n- NOT "Great point!" or praise\n- Real builder experience\n- Sparks conversation\n- English only\n\nIf nothing good to say, return: SKIP\nReturn ONLY raw reply text or SKIP.`,
+        content: `@${targetAccount} tweeted:\n"${tweetText}"\n\nWrite a SHORT Turkish reply (max 160 chars):\n- Helpful founder angle, practical addition, or respectful question\n- No empty praise like "great point"\n- No politics, no insults, no named-person attack\n- Make Turkish entrepreneurs want to reply\n\nIf nothing useful to say, return: SKIP\nReturn ONLY raw reply text or SKIP.`,
       },
     ],
   });
   const text = addHumanTouch(res.choices[0].message.content.trim());
-  return text === 'SKIP' ? null : text;
+  return text === 'SKIP' || !passesSafety(text, { allowEnglish: false }) ? null : text;
 }
 
 // ── generateMentionReply ──────────────────────────────────────────────────────
@@ -344,12 +393,12 @@ async function generateMentionReply(mentionText, fromUsername) {
       { role: 'system', content: SYSTEM },
       {
         role: 'user',
-        content: `@${fromUsername} replied to Kerim:\n"${mentionText}"\n\nWrite a SHORT genuine reply (max 120 chars):\n- Engage authentically\n- Build on their point or pushback with specifics\n- If question, answer directly\n- No hollow thanks or ass-kissing\n- English only\n\nIf the comment adds no value, return: SKIP\nReturn ONLY raw reply text or SKIP.`,
+        content: `@${fromUsername} replied to Kerim:\n"${mentionText}"\n\nWrite a SHORT Turkish reply (max 180 chars):\n- Be genuinely helpful\n- If they ask a question, answer directly\n- If they share an idea, add one practical next step\n- No hollow thanks, no insults, no politics\n\nIf the comment adds no value, return: SKIP\nReturn ONLY raw reply text or SKIP.`,
       },
     ],
   });
   const text = addHumanTouch(res.choices[0].message.content.trim());
-  return text === 'SKIP' ? null : text;
+  return text === 'SKIP' || !passesSafety(text, { allowEnglish: false }) ? null : text;
 }
 
 // ── generateRepostComment ─────────────────────────────────────────────────────
@@ -362,11 +411,14 @@ async function generateRepostComment(tweetText, authorHandle) {
       { role: 'system', content: SYSTEM },
       {
         role: 'user',
-        content: `@${authorHandle} tweeted:\n"${tweetText}"\n\nKerim wants to quote-tweet this with his own sharp take.\nWrite max 100 chars — his angle on this, adds to the conversation.\nNot a summary. His actual view.\nReturn ONLY the raw text. No quotes around it.`,
+        content: `@${authorHandle} tweeted:\n"${tweetText}"\n\nKerim wants to quote-tweet this in Turkish for Turkish entrepreneurs.\nWrite max 180 chars. Add a practical founder angle. Not a summary.\nNo politics, no insults, no named-person attack. Respectful but not boring.\nReturn ONLY the raw text. No quotes around it.`,
       },
     ],
   });
-  return addHumanTouch(res.choices[0].message.content.trim());
+  const text = addHumanTouch(res.choices[0].message.content.trim());
+  return passesSafety(text, { allowEnglish: false })
+    ? text
+    : 'Bu tip global hamlelerde asıl soru şu: Türkiye’deki girişimci bunu ürün, satış veya dağıtım avantajına nasıl çevirir?';
 }
 
 module.exports = {

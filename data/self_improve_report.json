@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-03T08:23:35.919Z",
+  "updatedAt": "2026-09-03T22:29:47.012Z",
   "errorAnalysis": {
-    "totalRecent": 117,
+    "totalRecent": 127,
     "byScript": {
       "engage.js": {
-        "count": 71,
+        "count": 81,
         "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
       "repost.js": {
@@ -15,7 +15,7 @@
     "criticalScripts": [
       {
         "script": "engage.js",
-        "count": 71,
+        "count": 81,
         "lastError": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
       },
       {
@@ -26,27 +26,26 @@
     ]
   },
   "performanceAnalysis": {
-    "status": "active",
+    "status": "insufficient_engagement",
     "tweetsWithEngagement": 0,
     "bestType": null,
     "worstType": null,
     "recommendations": [
-      "Optimal length: 62–94 chars (high performers: 78c, low: 74c)",
-      "High-performing keywords: \"AI\" (0pts), \"LLM\" (0pts), \"founder\" (0pts)"
+      "No reliable engagement signal yet — keep strategy manual until real likes/replies/retweets appear"
     ]
   },
   "growthAnalysis": {
     "currentFollowers": 5,
     "totalGain": 0,
-    "trackingDays": 79,
+    "trackingDays": 80,
     "dailyGrowthRate": 0,
     "isStagnant": true,
     "recentGain": 0
   },
   "keywordSuggestions": [],
   "overallRecommendations": [
-    "CRITICAL: Repeated errors in: engage.js (71x), repost.js (46x) — check errors.json",
-    "GROWTH STAGNANT: No new followers in 79 tracked days — increase engage.js frequency or adjust content mix"
+    "CRITICAL: Repeated errors in: engage.js (81x), repost.js (46x) — check errors.json",
+    "GROWTH STAGNANT: No new followers in 80 tracked days — increase engage.js frequency or adjust content mix"
   ],
   "dynamicConfigUpdated": true
 }

@@ -1,8 +1,8 @@
-name: Tweet 6 - London Morning (11am GMT / 14:00 TRT)
+name: Tweet 6 - Occasional Wolf - 22:00 TRT
 
 on:
   schedule:
-    - cron: '0 11 * * *'   # 11am GMT / 7am EST / 14:00 TRT  [London]
+    - cron: '0 19 * * *'   # 22:00 TRT
   workflow_dispatch:
 
 jobs:
@@ -22,9 +22,10 @@ jobs:
           XACTIONS_SESSION_COOKIE: ${{ secrets.XACTIONS_SESSION_COOKIE }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           TWITTER_HANDLE: kerimaydemirco
-          GROQ_MODEL: llama-3.3-70b-versatile
+          GROQ_MODEL: openai/gpt-oss-120b
           TWEET_SLOT: "6"
-          LONDON_MODE: "true"
+          WOLF_MODE: "true"
+          WOLF_DAYS: "1,3,6"
         run: node src/post.js
       - run: |
           git pull --rebase origin main || true

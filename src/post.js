@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { getTodaysTrends } = require('./trends');
-const { generateTweet } = require('./generator');
+const { generateTweet, generateWolfTweet } = require('./generator');
 const { XClient } = require('./xclient');
 const { logError } = require('./logger');
 const fs = require('fs');
@@ -26,7 +26,23 @@ function isDuplicate(tweet) {
 
 async function main() {
   const slot = process.env.TWEET_SLOT || '1';
-  const type = process.env.SV_MODE === 'true' ? 'sv' : process.env.LONDON_MODE === 'true' ? 'london' : 'general';
+  let wolfMode = process.env.WOLF_MODE === 'true';
+  if (wolfMode) {
+    const wolfDays = (process.env.WOLF_DAYS || '1,3,6').split(',').map(Number);
+    if (!wolfDays.includes(new Date().getUTCDay())) {
+      wolfMode = false;
+      console.log('Wolf slot is using the normal founder format today');
+    }
+  }
+  const type = wolfMode
+    ? 'wolf'
+    : process.env.GLOBAL_MODE === 'true'
+    ? 'global'
+    : process.env.SV_MODE === 'true'
+    ? 'sv'
+    : process.env.LONDON_MODE === 'true'
+    ? 'london'
+    : 'general';
   console.log(`▶ post.js — Slot #${slot} [${type}]`);
 
   let trends;
@@ -41,7 +57,11 @@ async function main() {
   let tweet = null;
   try {
     for (let i = 0; i < 3; i++) {
-      const candidate = await generateTweet(trends, slot);
+      const candidate = wolfMode ? await generateWolfTweet() : await generateTweet(trends, slot);
+      if (candidate === 'SKIP_GLOBAL') {
+        console.log('Global slot skipped — no major global trend today');
+        return;
+      }
       if (!isDuplicate(candidate)) { tweet = candidate; break; }
       console.log(`Attempt ${i + 1}: duplicate, retrying...`);
     }

@@ -1,7 +1,7 @@
-name: 📤 Tweet 2 - 2pm EST
+name: Tweet 2 - 13:00 TRT
 on:
   schedule:
-    - cron: '0 18 * * *'   # 2pm EST / 11am PST / 7pm London / 21:00 TRT
+    - cron: '0 10 * * *'   # 13:00 TRT
   workflow_dispatch:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
           XACTIONS_SESSION_COOKIE: ${{ secrets.XACTIONS_SESSION_COOKIE }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           TWITTER_HANDLE: kerimaydemirco
-          GROQ_MODEL: llama-3.3-70b-versatile
+          GROQ_MODEL: openai/gpt-oss-120b
           TWEET_SLOT: "2"
         run: node src/post.js
 

@@ -12,7 +12,7 @@ jobs:
     permissions: { contents: write }
     env:
       TWITTER_HANDLE: kerimaydemirco
-      GROQ_MODEL: llama-3.3-70b-versatile
+      GROQ_MODEL: openai/gpt-oss-120b
       ANALYTICS_TOP_N: "15"
       MIN_DATA_POINTS: "8"
     steps:

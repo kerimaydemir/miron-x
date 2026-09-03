@@ -1,7 +1,5 @@
 name: 🐺 Daily Wolf Tweet
 on:
-  schedule:
-    - cron: '0 17 * * *'   # 1pm EST / 10am PST / 20:00 TRT
   workflow_dispatch:
 
 jobs:
@@ -24,7 +22,7 @@ jobs:
           XACTIONS_SESSION_COOKIE: ${{ secrets.XACTIONS_SESSION_COOKIE }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           TWITTER_HANDLE: kerimaydemirco
-          GROQ_MODEL: llama-3.3-70b-versatile
+          GROQ_MODEL: openai/gpt-oss-120b
         run: node src/wolf.js
 
       - run: |
