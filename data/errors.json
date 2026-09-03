@@ -1,33 +1,5 @@
 [
   {
-    "ts": "2026-08-17T13:43:07.255Z",
-    "script": "engage.js",
-    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
-    "phase": "reply",
-    "account": "amasad"
-  },
-  {
-    "ts": "2026-08-17T13:43:14.448Z",
-    "script": "engage.js",
-    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
-    "phase": "reply",
-    "account": "jasonlk"
-  },
-  {
-    "ts": "2026-08-17T17:14:30.540Z",
-    "script": "engage.js",
-    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
-    "phase": "reply",
-    "account": "Jason"
-  },
-  {
-    "ts": "2026-08-17T17:14:39.992Z",
-    "script": "engage.js",
-    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
-    "phase": "reply",
-    "account": "gregisenberg"
-  },
-  {
     "ts": "2026-08-17T17:14:49.459Z",
     "script": "engage.js",
     "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
@@ -2098,5 +2070,33 @@
     "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
     "phase": "reply",
     "account": "sama"
+  },
+  {
+    "ts": "2026-09-03T19:28:59.709Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "sama"
+  },
+  {
+    "ts": "2026-09-03T19:29:06.932Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "karpathy"
+  },
+  {
+    "ts": "2026-09-03T19:29:18.172Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "naval"
+  },
+  {
+    "ts": "2026-09-03T19:29:25.506Z",
+    "script": "engage.js",
+    "error": "404 {\"error\":{\"message\":\"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}",
+    "phase": "reply",
+    "account": "alexisohanian"
   }
 ]
