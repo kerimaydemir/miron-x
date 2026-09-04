@@ -41,7 +41,7 @@ async function main() {
   console.log(`Wolf tweet (${tweet.length}c):\n${tweet}\n`);
 
   try {
-    const x = new XClient(process.env.XACTIONS_SESSION_COOKIE);
+    const x = new XClient();
     const result = await x.sendTweet(tweet);
     console.log('✅ Posted');
     save(tweet, result?.id || null);

@@ -22,7 +22,10 @@ jobs:
           PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
       - run: node src/test-post.js
         env:
-          XACTIONS_SESSION_COOKIE: ${{ secrets.XACTIONS_SESSION_COOKIE }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           TEST_TWEET: ${{ inputs.text }}
       - run: |
           git config user.name "github-actions[bot]"

@@ -15,7 +15,7 @@ function save(id) {
 }
 
 async function main() {
-  const x = new XClient(process.env.XACTIONS_SESSION_COOKIE);
+  const x = new XClient();
   const result = await x.sendTweet(text);
   save(result.id);
   console.log(`Posted test tweet: ${result.id}`);

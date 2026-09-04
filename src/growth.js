@@ -25,7 +25,7 @@ function save(data) {
 async function main() {
   console.log('▶ growth.js — Profile stats tracker');
 
-  const x = new XClient(process.env.XACTIONS_SESSION_COOKIE);
+  const x = new XClient();
 
   let profile;
   try {

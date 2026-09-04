@@ -49,7 +49,7 @@ async function main() {
   console.log(`Generated ${tweets.length}-tweet thread:`);
   tweets.forEach((t, i) => console.log(`  ${i + 1}: ${t.substring(0, 70)}`));
 
-  const x = new XClient(process.env.XACTIONS_SESSION_COOKIE);
+  const x = new XClient();
   let lastId = null;
 
   for (let i = 0; i < tweets.length; i++) {

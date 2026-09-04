@@ -8,7 +8,7 @@ const OUTPUT_PATH = path.join(__dirname, '../data/live_timeline.json');
 const limit = Math.min(Math.max(Number(process.env.TIMELINE_LIMIT || 800), 20), 1200);
 
 async function main() {
-  const x = new XClient(process.env.XACTIONS_SESSION_COOKIE);
+  const x = new XClient();
   const tweets = [];
   for await (const tweet of x.getTweets(config.HANDLE, limit)) {
     tweets.push({

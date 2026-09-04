@@ -43,7 +43,7 @@ async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 async function main() {
   console.log('▶ replies.js — Mention reply rutini');
 
-  const x = new XClient(process.env.XACTIONS_SESSION_COOKIE);
+  const x = new XClient();
   const log = loadLog();
   if (!log.mentionReplies) log.mentionReplies = [];
 

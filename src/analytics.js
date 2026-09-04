@@ -35,7 +35,7 @@ async function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function main() {
   console.log('▶ analytics.js — Engagement tracking + self-improvement data');
-  const x = new XClient(process.env.XACTIONS_SESSION_COOKIE);
+  const x = new XClient();
   const posted = loadPosted();
 
   // ── Step 1: Scan own live UserTweets — gets fresh stats for latest 20 ────

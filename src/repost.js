@@ -34,7 +34,7 @@ async function collectAsync(gen, limit) {
 async function main() {
   console.log('▶ repost.js — Quote-tweet a Turkish founder conversation');
 
-  const x = new XClient(process.env.XACTIONS_SESSION_COOKIE);
+  const x = new XClient();
   const log = loadLog();
   if (!log.reposts) log.reposts = [];
 

@@ -44,7 +44,7 @@ async function main() {
   const mode = process.env.ENGAGE_MODE || 'all';
   console.log(`▶ engage.js — Mode: ${mode} | limits: ${MAX_LIKES} likes / ${MAX_REPLIES} replies / ${MAX_FOLLOWS} follows`);
 
-  const x = new XClient(process.env.XACTIONS_SESSION_COOKIE);
+  const x = new XClient();
   const log = loadLog();
 
   // ─── LIKE ─────────────────────────────────────────────────────────────────

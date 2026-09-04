@@ -4,7 +4,7 @@ const { generateTweet, generateWolfTweet, generateReply, generateMentionReply, g
 const { getTodaysTrends } = require('./trends');
 const config = require('./config');
 
-const x = new XClient(process.env.XACTIONS_SESSION_COOKIE);
+const x = new XClient();
 
 let pass = 0, fail = 0;
 const results = [];

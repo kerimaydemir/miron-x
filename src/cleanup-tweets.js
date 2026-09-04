@@ -25,7 +25,7 @@ async function main() {
     throw new Error(`Refusing deletion: EXPECTED_DELETE_COUNT must equal ${targets.length}`);
   }
 
-  const x = new XClient(process.env.XACTIONS_SESSION_COOKIE);
+  const x = new XClient();
   const results = [];
   for (const target of targets) {
     try {
