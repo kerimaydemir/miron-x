@@ -119,15 +119,11 @@ Haftalık bakılacak metrikler:
 
 ## Operasyon Notu
 
-Bu sistem X web GraphQL + cookie ile çalışıyor. Resmi, uzun vadeli API kadar stabil değildir. Query ID değişirse veya cookie düşerse otomasyon kırılır.
+Hesap yönetimi X'in normal web veya mobil arayuzunden elle yapilir. Bu repoda oturum bilgisi, API anahtari, otomatik tweet, otomatik silme ya da GitHub Actions ile X islemi bulunmaz.
 
-Groq tarafında geçmiş hata kayıtlarında `llama-3.3-70b-versatile` için erişim problemi görünür. Üretim tarafı NVIDIA NIM üzerinden `qwen/qwen3.5-122b-a10b` modeline taşındı. Canlı doğrulama için GitHub'daki `NVIDIA_API_KEY` ile X OAuth repository secret'larının güncel olması gerekir.
+## Manuel Temizlik Akisi
 
-## Canlı Temizlik Akışı
-
-1. `npm run sync:timeline` ile hesaptaki tüm erişilebilir tweetler `data/live_timeline.json` içine alınır.
-2. `TWEET_AUDIT_SOURCE=live npm run audit:tweets` ile tam liste değerlendirilir.
-3. Raporun içindeki `action: delete` sayısı kontrol edilir.
-4. Yalnızca sayı netleştikten sonra `EXPECTED_DELETE_COUNT=<sayı> npm run cleanup:tweets -- --apply` çalıştırılır.
-
-Bu sayı koruması yanlış dosyadan veya yarım senkronizasyondan toplu tweet silinmesini önler.
+1. Profildeki postlar ve reply'lar tek tek gozden gecirilir.
+2. Repostlara dokunulmaz.
+3. Saldirgan, siyasi, baglamsiz, tekrar eden veya profil yonuyle uyusmayan icerikler silinir.
+4. Saklanacak postlar netlesmeden toplu karar verilmez.

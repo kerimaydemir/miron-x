@@ -1,31 +1,8 @@
 {
   "name": "kerim-x-system",
   "version": "3.0.0",
-  "description": "Kerim Aydemir — Autonomous X Brand System",
-  "scripts": {
-    "test:trends": "node -e \"require('./src/trends').getTodaysTrends().then(r=>{console.log('HN:',r.hackerNews.length,'RSS:',r.rssNews.length);r.hackerNews.slice(0,3).forEach(s=>console.log('-',s.title))})\"",
-    "test:tweet": "node -e \"require('./src/trends').getTodaysTrends().then(t=>require('./src/generator').generateTweet(t,'1')).then(t=>{console.log('---');console.log(t);console.log('---');console.log('Length:',t.length)})\"",
-    "test:thread": "node -e \"require('./src/trends').getTodaysTrends().then(t=>require('./src/generator').generateThread(t)).then(ts=>ts.forEach((t,i)=>console.log(i+1,':',t)))\"",
-    "post:1": "TWEET_SLOT=1 node src/post.js",
-    "post:2": "TWEET_SLOT=2 node src/post.js",
-    "post:3": "TWEET_SLOT=3 node src/post.js",
-    "post:4": "TWEET_SLOT=4 node src/post.js",
-    "post:5": "TWEET_SLOT=5 GLOBAL_MODE=true node src/post.js",
-    "post:6": "TWEET_SLOT=6 WOLF_MODE=true node src/post.js",
-    "post:7": "TWEET_SLOT=7 node src/post.js",
-    "tweet:hello": "node src/test-post.js",
-    "thread": "node src/thread.js",
-    "audit:tweets": "node src/audit-tweets.js",
-    "sync:timeline": "node src/sync-timeline.js",
-    "cleanup:tweets": "node src/cleanup-tweets.js",
-    "engage": "node src/engage.js",
-    "engage:like": "ENGAGE_MODE=like node src/engage.js",
-    "engage:reply": "ENGAGE_MODE=reply node src/engage.js"
-  },
-  "dependencies": {
-    "axios": "^1.6.0",
-    "dotenv": "^16.3.1",
-    "rss-parser": "^3.13.0",
-    "twitter-api-v2": "^1.29.1"
-  }
+  "description": "Kerim Aydemir - manual X account curation notes",
+  "private": true,
+  "scripts": {},
+  "dependencies": {}
 }
