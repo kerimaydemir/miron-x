@@ -30,14 +30,15 @@ function toTweet(tweet) {
 class XClient {
   constructor() {
     const required = ['X_API_KEY', 'X_API_KEY_SECRET', 'X_ACCESS_TOKEN', 'X_ACCESS_TOKEN_SECRET'];
-    const missing = required.filter((name) => !process.env[name]);
+    const credentials = Object.fromEntries(required.map((name) => [name, process.env[name]?.trim()]));
+    const missing = required.filter((name) => !credentials[name]);
     if (missing.length) throw new Error(`Missing X OAuth secrets: ${missing.join(', ')}`);
 
     this.client = new TwitterApi({
-      appKey: process.env.X_API_KEY,
-      appSecret: process.env.X_API_KEY_SECRET,
-      accessToken: process.env.X_ACCESS_TOKEN,
-      accessSecret: process.env.X_ACCESS_TOKEN_SECRET,
+      appKey: credentials.X_API_KEY,
+      appSecret: credentials.X_API_KEY_SECRET,
+      accessToken: credentials.X_ACCESS_TOKEN,
+      accessSecret: credentials.X_ACCESS_TOKEN_SECRET,
     });
     this.v2 = this.client.v2;
     this._profileCache = new Map();
