@@ -22,6 +22,7 @@ async function main() {
 }
 
 main().catch(error => {
-  console.error(error.message);
+  const detail = error?.data?.detail || error?.data?.title || error?.response?.data?.detail;
+  console.error(detail ? `${error.message}: ${detail}` : error.message);
   process.exit(1);
 });
