@@ -1,0 +1,49 @@
+name: 🤝 Engagement Routines
+on:
+  schedule:
+    - cron: '0 13 * * *'   # 9am EST — full (like+reply) / 16:00 TRT
+    - cron: '0 17 * * *'   # 1pm EST — like only / 20:00 TRT
+    - cron: '0 22 * * *'   # 6pm EST — reply only / 01:00 TRT
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Mode: all / like / reply / follow'
+        default: 'all'
+        required: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '24', cache: 'npm' }
+
+      - run: npm ci --ignore-scripts --no-audit --fund=false
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: true
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
+
+      - name: Run engagement
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          TWITTER_HANDLE: kerimaydemirco
+          NVIDIA_MODEL: qwen/qwen3.5-122b-a10b
+          ENGAGE_MODE: ${{ github.event.inputs.mode || 'all' }}
+          MAX_LIKES_PER_SESSION: "12"
+          MAX_REPLIES_PER_SESSION: "3"
+          MAX_FOLLOWS_PER_DAY: "1"
+        run: node src/engage.js
+
+      - run: |
+          git pull --rebase origin main || true
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ || true
+          git diff --staged --quiet || git commit -m "🤝 auto [skip ci]"
+          git push || true

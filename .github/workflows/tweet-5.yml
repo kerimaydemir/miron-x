@@ -1,0 +1,39 @@
+name: Tweet 5 - Conditional Global - 21:00 TRT
+on:
+  schedule:
+    - cron: '0 18 * * *'   # conditional English global slot / 21:00 TRT
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '24', cache: 'npm' }
+
+      - run: npm ci --ignore-scripts --no-audit --fund=false
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: true
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
+
+      - env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          TWITTER_HANDLE: kerimaydemirco
+          NVIDIA_MODEL: qwen/qwen3.5-122b-a10b
+          TWEET_SLOT: "5"
+          GLOBAL_MODE: "true"
+        run: node src/post.js
+
+      - run: |
+          git pull --rebase origin main || true
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ || true
+          git diff --staged --quiet || git commit -m "📊 auto [skip ci]"
+          git push || true
